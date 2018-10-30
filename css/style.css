@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Wilderness";
+    src: url("/css/fonts/WildernessTypeface-Regular.ttf");
+    src: url("/css/fonts/wildernesstypeface-regular-webfont.woff") format("woff");
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Wilderness', sans-serif;
+}

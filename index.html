@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Mix it!</title>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
+    <!-- wrapper for all elements -->
+    <div id="wrapper">
+        <!-- for an additional intro sequence if needed -->
+        <!--<div class="intro"></div>-->
+
+        <!-- container for the visualizations of the cocktails -->
+        <div class="cocktail-animations"></div>
+
+        <!-- container for all interface items like nav, buttons etc. -->
+        <div class="interface">
+            <ul class="cocktail-nav"></ul>
+            <div class="overview-nav"></div>
+            <div class="cocktail-info-wrapper">
+                <div class="main-heading">
+                    <h1>Bloody Mary</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- when one clicks the "shaker" button, overview overlay is opened -->
+        <div class="overview"></div>
+
+        <!-- if site is opened in a incompatible browser, show message to change to Google Chrome -->
+        <div class="browser-capability"></div>
+    </div>
 
 </body>
 </html>
