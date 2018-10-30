@@ -1,13 +1,32 @@
 @font-face {
-    font-family: "Wilderness";
-    src: url("/css/fonts/WildernessTypeface-Regular.ttf");
-    src: url("/css/fonts/wildernesstypeface-regular-webfont.woff") format("woff");
+    font-family: 'Wilderness';
+    src: url('/css/fonts/Wilderness.ttf');
+    src: url('/css/fonts/wilderness.woff') format('woff');
 }
 
 body, html {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #eceaea;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: #101010;
 }
 
-h1, h2, h3 {
+#wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(/css/images/blackboard.png);
+}
+
+.main-heading h1{
     font-family: 'Wilderness', sans-serif;
+    font-size: 50px;
 }
