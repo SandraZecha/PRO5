@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Wilderness';
-    src: url('/css/fonts/Wilderness.ttf');
-    src: url('/css/fonts/wilderness.woff') format('woff');
+    src: url('./fonts/Wilderness.ttf');
+    src: url('./fonts/wilderness.woff') format('woff');
 }
 
 body, html {
@@ -19,14 +19,89 @@ body, html {
     background-color: #101010;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 #wrapper {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: url(/css/images/blackboard.png);
+    background: url(./images/blackboard.png);
+    background-size: cover;
 }
 
+/* ---------------------------- INTERFACE ---------------------------- */
+.interface{
+    z-index: 100;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
 .main-heading h1{
     font-family: 'Wilderness', sans-serif;
-    font-size: 50px;
+    font-weight: inherit;
+    font-size: 12em;
+    margin: 50px;
+}
+
+/* overview button */
+.interface .overview-nav {
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    height: 35px;
+    z-index: 1;
+}
+.interface .overview-nav img {
+    position: absolute;
+    left: 3%;
+    height: 100%;
+}
+
+/* cocktail navigation */
+.interface .cocktail-nav-wrapper {
+    position: fixed;
+    top: 85%;
+    width: 100%;
+    z-index: 1;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li {
+    display: inline;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li a {
+    display: inline-block;
+    font-family: 'Wilderness', sans-serif;
+    font-size: 5em;
+    color: #eceaea;
+    text-align: center;
+    padding: 14px 20px;
+    height: 30px;
+    width: 150px;
+    text-decoration: none;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li a.mix-button {
+    background: url(./images/border.png);
+    background-size: 190px 58px;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li a p {
+    line-height: 30px;
+    margin: 5px;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li img {
+    height: 100%;
 }
