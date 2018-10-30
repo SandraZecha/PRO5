@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <title>Mix it!</title>
 
+    <script src="js/jquery-3.3.1.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <!-- wrapper for all elements -->
-    <div id="wrapper">
+    <!-- !!!!!!!!!!!!!!!!!CHANGE CLASS OF COCKTAIL HERE WITH JS!!!!!!!!!!!!!!!!! -->
+    <div id="main-wrapper" class="bloodymary">
         <!-- for an additional intro sequence if needed -->
         <!--<div class="intro"></div>-->
 
         <!-- container for the visualizations of the cocktails -->
-        <div class="cocktail-animations"></div>
+        <div class="cocktail-animations">
+            <div class="cocktail-mover">
+                <div class="animation-wrap magic-stuff">
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- container for all interface items like nav, buttons etc. -->
         <div class="interface">
@@ -50,5 +66,6 @@
         <div class="browser-capability"></div>
     </div>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
