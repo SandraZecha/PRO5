@@ -1,0 +1,243 @@
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- COCKTAILS -------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------- BLOODY MARY ---------------------- */
+#main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkslateblue;
+}
+#main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: transparent;
+}
+
+/* ---------------------- CUBA LIBRE ---------------------- */
+#main-wrapper.cubalibre .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    background-color: darkolivegreen;
+}
+#main-wrapper.cubalibre .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkorange;
+}
+#main-wrapper.cubalibre .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    background-color: darkslategray;
+}
+
+/* ---------------------- LONG ISLAND ---------------------- */
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkslateblue;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: darksalmon;
+}
+
+/* ---------------------- MARGARITA ---------------------- */
+#main-wrapper.margarita .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    background-color: darkolivegreen;
+}
+#main-wrapper.margarita .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkorange;
+}
+#main-wrapper.margarita .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    background-color: darkslategray;
+}
+
+/* ---------------------- MARTINI ---------------------- */
+#main-wrapper.martini .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkorchid;
+}
+#main-wrapper.martini .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkslategray;
+}
+#main-wrapper.martini .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: darkgoldenrod;
+}
+
+/* ---------------------- MOJITO ---------------------- */
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkslateblue;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: darksalmon;
+}
+
+/* ---------------------- MOSCOW MULE ---------------------- */
+#main-wrapper.moscowmule .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    background-color: darkolivegreen;
+}
+#main-wrapper.moscowmule .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkorange;
+}
+#main-wrapper.moscowmule .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    background-color: darkslategray;
+}
+
+/* ---------------------- PINA COLADA ---------------------- */
+#main-wrapper.pinacolada .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.pinacolada .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkslateblue;
+}
+#main-wrapper.pinacolada .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: darksalmon;
+}
+
+/* ---------------------- SWIMMINGPOOL ---------------------- */
+#main-wrapper.swimmingpool .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    clip-path: polygon(50% 80%, 40% 35%, 60% 40%);
+    background-color: darkolivegreen;
+}
+#main-wrapper.swimmingpool .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkorange;
+}
+#main-wrapper.swimmingpool .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    clip-path: polygon(50% 80%, 30% 75%, 33% 65%);
+    background-color: darkslategray;
+}
+
+/* ---------------------- TEQUILA SUNRISE ---------------------- */
+#main-wrapper.tequilasunrise .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkslategray;
+}
+#main-wrapper.tequilasunrise .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    background-color: darkblue;
+}
+#main-wrapper.tequilasunrise .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
+    background-color: darkcyan;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- INGREDIENTS ------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------- BLOODY MARY ---------------------- */
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-seven .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+#main-wrapper.bloodymary .position-eight .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: darkred;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- TRANSITIONS ------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+.magic-stuff .poly-wrap:nth-child(1) .poly {
+    transition: -webkit-clip-path 0.34s 0.22s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.34s 0.02s,
+    -webkit-transform 0.3s, margin 0.3s 0.22s;
+}
+.magic-stuff .poly-wrap:nth-child(2) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.38s 0.04s,
+    -webkit-transform 0.3s, margin 0.3s 0.24s;
+}
+.magic-stuff .poly-wrap:nth-child(3) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}

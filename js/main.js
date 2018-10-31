@@ -19,13 +19,13 @@ $(document).ready(function () {
         getCurrentIndex();
 
         if(current <= 0){
-            newCocktail = 1;
+            newCocktail = 9;
         } else {
             newCocktail = current - 1;
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
         $("#main-wrapper").attr("class", newClass);
-        $(".main-heading h1").text(newClass);
+        $(".main-heading h1").text(cocktailList.eq(newCocktail).prop("innerHTML"));
 
     });
 
@@ -33,15 +33,20 @@ $(document).ready(function () {
     $(".next a").on("click", function () {
         getCurrentIndex();
 
-        if(current >= 1){
+        if(current >= 9){
             newCocktail = 0;
         } else {
             newCocktail = current + 1;
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
         $("#main-wrapper").attr("class", newClass);
-        $(".main-heading h1").text(newClass);
+        $(".main-heading h1").text(cocktailList.eq(newCocktail).prop("innerHTML"));
 
+    });
+
+    //Show ingredients of cocktail on click
+    $(".mix-it a").on("click", function () {
+        $('.cocktail-ingredients').toggleClass("inactive active");
     });
 
 });
