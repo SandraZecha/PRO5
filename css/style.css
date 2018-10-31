@@ -106,6 +106,59 @@ ul {
     height: 100%;
 }
 
+
+/* arrows jumping */
+@keyframes jump-left {
+    0% { left: 0; }
+    50% { left: -10px; }
+    100% { left: 0; }
+}
+@keyframes jump-right {
+    0% { right: 0; }
+    50% { right: -10px; }
+    100% { right: 0; }
+}
+
+.interface .cocktail-nav-wrapper .cocktail-nav .prev .nav-arrow {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    animation: jump-left 2s infinite;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav .next .nav-arrow {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    animation: jump-right 2s infinite;
+}
+
+/* shaker icon animation */
+@keyframes shaker {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.interface .overview-nav img:hover {
+    animation: shaker 0.82s
+                cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
 /* ---------------------------- COCKTAIL ANIMATIONS ---------------------------- */
 .cocktail-animations {
     transform: scale(0.5);
@@ -155,7 +208,7 @@ ul {
 #main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(3) .poly {
     -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
     clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    background-color: darkmagenta;
+    background-color: transparent;
 }
 
 /* ---------------------- MOJITO ---------------------- */
