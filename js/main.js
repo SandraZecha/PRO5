@@ -11,6 +11,13 @@ function getCurrentIndex () {
     });
 }
 
+//to hide ingredients before cocktail switch, check for active class and remove if necessary
+function toggleIngredients() {
+    if($(".cocktail-ingredients").hasClass("active")) {
+        $('.cocktail-ingredients').removeClass("active").addClass("inactive");
+    }
+}
+
 $(document).ready(function () {
     let newCocktail, newClass;
 
@@ -24,8 +31,17 @@ $(document).ready(function () {
             newCocktail = current - 1;
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
+
+        toggleIngredients();
+
         $("#main-wrapper").attr("class", newClass);
-        $(".main-heading h1").text(cocktailList.eq(newCocktail).prop("innerHTML"));
+
+        //smooth heading change
+        let heading = $(".main-heading h1");
+        heading.fadeOut(function(){
+            heading.text(cocktailList.eq(newCocktail).prop("innerHTML"));
+            heading.fadeIn();
+        });
 
     });
 
@@ -39,9 +55,17 @@ $(document).ready(function () {
             newCocktail = current + 1;
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
-        $("#main-wrapper").attr("class", newClass);
-        $(".main-heading h1").text(cocktailList.eq(newCocktail).prop("innerHTML"));
 
+        toggleIngredients();
+
+        $("#main-wrapper").attr("class", newClass);
+
+        //smooth heading change
+        let heading = $(".main-heading h1");
+        heading.fadeOut(function(){
+            heading.text(cocktailList.eq(newCocktail).prop("innerHTML"));
+            heading.fadeIn();
+        });
     });
 
     //Show ingredients of cocktail on click
