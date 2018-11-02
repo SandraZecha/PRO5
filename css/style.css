@@ -233,66 +233,79 @@ ul {
     transition: 0.33s cubic-bezier(0.7, 0.3, 0, 1);
 }
 
+.cocktail-ingredients, .ingredient-mover .ingredient-text-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
+.cocktail-ingredients, .ingredient-mover .ingredient-text-wrapper .ingredient-text {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    font-size: 2em;
+}
 
  /* set positions of ingredients */
 /* !!! ACHTUNG: durch scale = Ausgangspunkt centered, nicht links oben !!! */
 .cocktail-ingredients.active .ingredient-mover:nth-child(1) {
     transform: scale(0.3);
-    top: -20%;
-    left: -20%;
+    top: -16%;
+    left: -16%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(2) {
     transform: scale(0.3);
-    top: -20%;
-    left: 20%;
+    top: -14%;
+    left: 17%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(3) {
     transform: scale(0.3);
-    top: 0%;
-    left: -20%;
+    top: -5%;
+    left: -38%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(4) {
     transform: scale(0.3);
-    top: 0%;
-    left: 20%;
+    top: -7%;
+    left: 39%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(5) {
     transform: scale(0.3);
-    top: 20%;
+    top: 13%;
     left: -20%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(6) {
     transform: scale(0.3);
-    top: 20%;
+    top: 15%;
     left: 20%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(7) {
     transform: scale(0.3);
-    top: 40%;
-    left: -20%;
+    top: 30%;
+    left: -33%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
 .cocktail-ingredients.active .ingredient-mover:nth-child(8) {
     transform: scale(0.3);
-    top: 40%;
-    left: 20%;
+    top: 32%;
+    left: 33%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
 }
+
 
 
 /* unscale ingredients */

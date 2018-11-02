@@ -5,19 +5,19 @@
 
 /* ---------------------- BLOODY MARY ---------------------- */
 #main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    -webkit-clip-path: polygon(47.72% 30.18%, 49.05% 63.45%, 37.33% 74.20%);
+    clip-path: polygon(47.72% 30.18%, 49.05% 63.45%, 37.33% 74.20%);
     background-color: darkred;
 }
 #main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(2) .poly {
-    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
-    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
+    -webkit-clip-path: polygon(49.05% 63.45%, 61.95% 88.86%, 33.95% 88.86%);
+    clip-path: polygon(49.05% 63.45%, 61.95% 88.86%, 33.95% 88.86%);
     background-color: darkslateblue;
 }
 #main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(3) .poly {
-    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    background-color: transparent;
+    -webkit-clip-path: polygon(49.05% 63.45%, 33.95% 88.86%, 37.33% 74.20%);
+    clip-path: polygon(49.05% 63.45%, 33.95% 88.86%, 37.33% 74.20%);
+    background-color: darkgray;
 }
 
 /* ---------------------- CUBA LIBRE ---------------------- */
@@ -178,41 +178,49 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ---------------------- BLOODY MARY ---------------------- */
+/*Ingredient 1 */
 #main-wrapper.bloodymary .position-one .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 2 */
 #main-wrapper.bloodymary .position-two .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 3 */
 #main-wrapper.bloodymary .position-three .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 4 */
 #main-wrapper.bloodymary .position-four .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 5 */
 #main-wrapper.bloodymary .position-five .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 6 */
 #main-wrapper.bloodymary .position-six .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 7 */
 #main-wrapper.bloodymary .position-seven .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     background-color: darkred;
 }
+/*Ingredient 8 */
 #main-wrapper.bloodymary .position-eight .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);

@@ -73,4 +73,5 @@ $(document).ready(function () {
         $('.cocktail-ingredients').toggleClass("inactive active");
     });
 
+
 });
