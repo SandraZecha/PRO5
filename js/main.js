@@ -11,6 +11,27 @@ function getCurrentIndex () {
     });
 }
 
+//update the ingredients based on current Cocktail
+function getCurrentIngredients () {
+    getCurrentIndex();
+
+    let currentIngredients = cocktailList.eq(current).children().children();
+    let ingredientDivs = document.querySelectorAll('.ingredient-text-wrapper');
+    //console.log(ingredientDivs);
+
+    //empty all ingredient div's before filling them with right values
+    for(let i = 0; i < 8; i++) {
+        ingredientDivs[i].childNodes[1].innerHTML = "";
+    }
+
+    // for loop through all ingredients
+    // fill child nodes of divs with right innerHTML of hidden indices div's
+    for(let i = 0; i < currentIngredients.length; i++){
+        ingredientDivs[i].childNodes[1].innerHTML = currentIngredients.eq(i)[0].innerHTML;
+        //console.log(ingredientDivs[i].childNodes[1].text);
+    }
+}
+
 //to hide ingredients before cocktail switch, check for active class and remove if necessary
 function toggleIngredients() {
     if($(".cocktail-ingredients").hasClass("active")) {
@@ -39,9 +60,11 @@ $(document).ready(function () {
         //smooth heading change
         let heading = $(".main-heading h1");
         heading.fadeOut(function(){
-            heading.text(cocktailList.eq(newCocktail).prop("innerHTML"));
+            heading.text(cocktailList.eq(newCocktail).find("p:first").text());
             heading.fadeIn();
         });
+
+        getCurrentIngredients();
 
     });
 
@@ -63,9 +86,12 @@ $(document).ready(function () {
         //smooth heading change
         let heading = $(".main-heading h1");
         heading.fadeOut(function(){
-            heading.text(cocktailList.eq(newCocktail).prop("innerHTML"));
+            heading.text(cocktailList.eq(newCocktail).find("p:first").text());
             heading.fadeIn();
         });
+
+        getCurrentIngredients();
+
     });
 
     //Show ingredients of cocktail on click
