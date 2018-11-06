@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f93946-e7c3-4192-ac51-291e27e8e3ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/polys.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/polys.css" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +25,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4275" />
+          <entry key="css" value="4509" />
           <entry key="html" value="3390" />
           <entry key="js" value="3258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4275" />
+          <entry key="CSS" value="4509" />
           <entry key="HTML" value="3390" />
           <entry key="JavaScript" value="3258" />
         </counts>
@@ -58,10 +56,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
+            <state relative-caret-position="2115">
               <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
             </state>
           </provider>
@@ -76,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/polys.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="376" column="29" selection-start-line="376" selection-start-column="29" selection-end-line="376" selection-end-column="29" />
+            <state relative-caret-position="618">
+              <caret line="538" column="45" lean-forward="true" selection-start-line="538" selection-start-column="45" selection-end-line="538" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -129,10 +127,10 @@
       <list>
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/css/polys.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/polys.css" />
       </list>
     </option>
   </component>
@@ -215,12 +213,12 @@
       <workItem from="1540804015293" duration="140000" />
       <workItem from="1540804266983" duration="101000" />
       <workItem from="1540804832369" duration="49831000" />
-      <workItem from="1541324911697" duration="5166000" />
+      <workItem from="1541324911697" duration="5968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55514000" />
+    <option name="totallyTimeSpent" value="56316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,13 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/polys.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5640">
-          <caret line="376" column="29" selection-start-line="376" selection-start-column="29" selection-end-line="376" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
@@ -323,8 +314,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
+        <state relative-caret-position="2115">
           <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/polys.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="538" column="45" lean-forward="true" selection-start-line="538" selection-start-column="45" selection-end-line="538" selection-end-column="45" />
         </state>
       </provider>
     </entry>
