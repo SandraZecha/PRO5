@@ -14,10 +14,8 @@ function getCurrentIndex () {
 //update the ingredients based on current Cocktail
 function getCurrentIngredients () {
     getCurrentIndex();
-
     let currentIngredients = cocktailList.eq(current).children().children();
     let ingredientDivs = document.querySelectorAll('.ingredient-text-wrapper');
-    //console.log(ingredientDivs);
 
     //empty all ingredient div's before filling them with right values
     for(let i = 0; i < 8; i++) {
@@ -28,7 +26,6 @@ function getCurrentIngredients () {
     // fill child nodes of divs with right innerHTML of hidden indices div's
     for(let i = 0; i < currentIngredients.length; i++){
         ingredientDivs[i].childNodes[1].innerHTML = currentIngredients.eq(i)[0].innerHTML;
-        //console.log(ingredientDivs[i].childNodes[1].text);
     }
 }
 
@@ -37,6 +34,11 @@ function toggleIngredients() {
     if($(".cocktail-ingredients").hasClass("active")) {
         $('.cocktail-ingredients').removeClass("active").addClass("inactive");
     }
+}
+
+//to check if next cocktail has less Polygons then current -> make smooth transition
+function checkForPolygons() {
+
 }
 
 $(document).ready(function () {
