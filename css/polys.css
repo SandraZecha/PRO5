@@ -130,8 +130,18 @@
     background-color: #983232;
 }
 #main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(25) .poly {
-    -webkit-clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
-    clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
+     -webkit-clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
+     clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
+     background-color: transparent;
+}
+#main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
+    clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
+    background-color: transparent;
+}
+#main-wrapper.bloodymary .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
+    clip-path: polygon(52.45% 91.15%,       56.64% 72.57%,      56.43% 89.84%);
     background-color: transparent;
 }
 
@@ -265,23 +275,158 @@
     clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
     background-color: #c6d31e;
 }
+#main-wrapper.cubalibre .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
+    clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
+    clip-path: polygon(45.38% 30.97%,         46.78% 36.62%,        41.94% 36.56%);
+    background-color: transparent;
+}
 
 
 /* ---------------------- LONG ISLAND ---------------------- */
+/* straw */
 #main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(38.69% 2.37%,         39.62% 2.20%,         48.47% 84.82%);
+    clip-path: polygon(38.69% 2.37%,         39.62% 2.20%,         48.47% 84.82%);
+    background-color: #626161;
 }
 #main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(2) .poly {
-    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
-    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
-    background-color: darkslateblue;
+    -webkit-clip-path: polygon(38.69% 2.37%,         48.47% 84.82%,        47.54% 84.99%);
+    clip-path: polygon(38.69% 2.37%,         48.47% 84.82%,        47.54% 84.99%);
+    background-color: #454344;
 }
+
+/* lemon */
 #main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(3) .poly {
-    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    background-color: darksalmon;
+    -webkit-clip-path: polygon(51.66% 24.27%,         54.44% 13.79%,          60.24% 24.27%);
+    clip-path: polygon(51.66% 24.27%,         54.44% 13.79%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(52.99% 23.07%,         55.03% 15.84%,          59.28% 23.54%);
+    clip-path: polygon(52.99% 23.07%,         55.03% 15.84%,          59.28% 23.54%);
+    background-color: #ffdf45;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(54.44% 13.79%,         60.62% 10.08%,          60.24% 24.27%);
+    clip-path: polygon(54.44% 13.79%,         60.62% 10.08%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.63% 14.94%,         60.16% 12.22%,          59.88% 22.63%);
+    clip-path: polygon(55.63% 14.94%,         60.16% 12.22%,          59.88% 22.63%);
+    background-color: #ffdf45;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(60.62% 10.08%,         66.58% 14.68%,          60.24% 24.27%);
+    clip-path: polygon(60.62% 10.08%,         66.58% 14.68%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(60.97% 12.28%,         65.34% 15.65%,          60.69% 22.69%);
+    clip-path: polygon(60.97% 12.28%,         65.34% 15.65%,          60.69% 22.69%);
+    background-color: #ffdf45;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(66.58% 14.68%,         68.82% 24.90%,          60.24% 24.27%);
+    clip-path: polygon(66.58% 14.68%,         68.82% 24.90%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(65.88% 16.64%,         67.53% 24.14%,          61.23% 23.68%);
+    clip-path: polygon(65.88% 16.64%,         67.53% 24.14%,          61.23% 23.68%);
+    background-color: #ffdf45;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(68.82% 24.90%,         66.04% 34.76%,          60.24% 24.27%);
+    clip-path: polygon(68.82% 24.90%,         66.04% 34.76%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(67.50% 25.48%,         65.45% 32.70%,          61.2% 25.01%);
+    clip-path: polygon(67.50% 25.48%,         65.45% 32.70%,          61.2% 25.01%);
+    background-color: #ffdf45;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(13) .poly {
+    -webkit-clip-path: polygon(66.04% 34.76%,         59.42% 38.20%,          60.24% 24.27%);
+    clip-path: polygon(66.04% 34.76%,         59.42% 38.20%,          60.24% 24.27%);
+    background-color: #fdf9d4;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(14) .poly {
+    -webkit-clip-path: polygon(64.88% 33.61%,         60.13% 36.12%,          60.60% 25.92%);
+    clip-path: polygon(64.88% 33.61%,         60.13% 36.12%,          60.60% 25.92%);
+    background-color: #ffdf45;
+}
+
+/* glass */
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(15) .poly {
+    -webkit-clip-path: polygon(38.92% 24.27%,         60.24% 24.27%,          45.23% 34.77%);
+    clip-path: polygon(38.92% 24.27%,         60.24% 24.27%,          45.23% 34.77%);
+    background-color: #b57c3c;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(16) .poly {
+    -webkit-clip-path: polygon(45.23% 34.77%,         60.24% 24.27%,          56.15% 38.99%);
+    clip-path: polygon(45.23% 34.77%,        60.24% 24.27%,          56.15% 38.99%);
+    background-color: #b78348;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(17) .poly {
+    -webkit-clip-path: polygon(56.15% 38.99%,         60.24% 24.27%,          57.40% 72.78%);
+    clip-path: polygon(56.15% 38.99%,        60.24% 24.27%,          57.40% 72.78%);
+    background-color: #c9b195;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(18) .poly {
+    -webkit-clip-path: polygon(38.92% 24.27%,         45.23% 34.77%,          45.23% 83.79%);
+    clip-path: polygon(38.92% 24.27%,        45.23% 34.77%,          45.23% 83.79%);
+    background-color: #8d581d;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(19) .poly {
+    -webkit-clip-path: polygon(45.23% 34.77%,         49.10% 87.80%,          45.23% 83.79%);
+    clip-path: polygon(45.23% 34.77%,        49.10% 87.80%,          45.23% 83.79%);
+    background-color: #9c6834;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(20) .poly {
+    -webkit-clip-path: polygon(45.23% 34.77%,         56.15% 38.99%,          49.10% 87.80%);
+    clip-path: polygon(45.23% 34.77%,        56.15% 38.99%,          49.10% 87.80%);
+    background-color: #9c6834;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(21) .poly {
+    -webkit-clip-path: polygon(56.15% 38.99%,         53.99% 85.41%,          49.10% 87.80%);
+    clip-path: polygon(56.15% 38.99%,        53.99% 85.41%,          49.10% 87.80%);
+    background-color: #b78044;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(22) .poly {
+    -webkit-clip-path: polygon(56.15% 38.99%,         57.40% 72.78%,          53.99% 85.41%);
+    clip-path: polygon(56.15% 38.99%,        57.40% 72.78%,          53.99% 85.41%);
+    background-color: #c5a47d;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(23) .poly {
+    -webkit-clip-path: polygon(38.92% 24.27%,         45.23% 83.79%,          41.73% 72.31%);
+    clip-path: polygon(38.92% 24.27%,        45.23% 83.79%,          41.73% 72.31%);
+    background-color: #6d471b;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(24) .poly {
+    -webkit-clip-path: polygon(41.73% 72.31%,         47.48% 91.15%,          42.75% 89.92%);
+    clip-path: polygon(41.73% 72.31%,         47.48% 91.15%,          42.75% 89.92%);
+    background-color: #543719;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(25) .poly {
+    -webkit-clip-path: polygon(45.23% 83.79%,         52.34% 91.15%,          47.48% 91.15%);
+    clip-path: polygon(45.23% 83.79%,         52.34% 91.15%,          47.48% 91.15%);
+    background-color: #7b4e1c;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(49.10% 87.80%,         53.99% 85.41%,          52.34% 91.15%);
+    clip-path: polygon(49.10% 87.80%,         53.99% 85.41%,          52.34% 91.15%);
+    background-color: #784f23;
+}
+#main-wrapper.longisland .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(52.34% 91.15%,         57.40% 72.78%,          56.41% 89.92%);
+    clip-path: polygon(52.34% 91.15%,         57.40% 72.78%,          56.41% 89.92%);
+    background-color: #835829;
 }
 
 /* ---------------------- MARGARITA ---------------------- */
