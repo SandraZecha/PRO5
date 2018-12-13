@@ -4,8 +4,6 @@
     <list default="true" id="e4f93946-e7c3-4192-ac51-291e27e8e3ef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/polys.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/polys.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,14 +28,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5356" />
+          <entry key="css" value="5976" />
           <entry key="html" value="3498" />
           <entry key="js" value="3389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5356" />
+          <entry key="CSS" value="5976" />
           <entry key="HTML" value="3498" />
           <entry key="JavaScript" value="3389" />
         </counts>
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/polys.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="486" column="78" selection-start-line="486" selection-start-column="78" selection-end-line="486" selection-end-column="78" />
+            <state relative-caret-position="414">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -219,12 +217,12 @@
       <workItem from="1540804266983" duration="101000" />
       <workItem from="1540804832369" duration="49831000" />
       <workItem from="1541324911697" duration="7424000" />
-      <workItem from="1544617843549" duration="6798000" />
+      <workItem from="1544617843549" duration="11839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64570000" />
+    <option name="totallyTimeSpent" value="69611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/polys.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="486" column="78" selection-start-line="486" selection-start-column="78" selection-end-line="486" selection-end-column="78" />
+        <state relative-caret-position="414">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
