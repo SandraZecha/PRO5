@@ -595,21 +595,155 @@
 
 
 /* ---------------------- MOJITO ---------------------- */
+/* straw */
 #main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(53.47% 71.41%,         52.58% 71.25%,        59.51% 16.70%);
+    clip-path: polygon(53.47% 71.41%,         52.58% 71.25%,        59.51% 16.70%);
+    background-color: #444343;
 }
 #main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(2) .poly {
-    -webkit-clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
-    clip-path: polygon(50% 80%, 40% 35%, 55% 60%);
-    background-color: darkslateblue;
+    -webkit-clip-path: polygon(52.58% 71.25%,         58.61% 16.54%,        59.51% 16.70%);
+    clip-path: polygon(52.58% 71.25%,         58.61% 16.54%,        59.51% 16.70%);
+    background-color: #606060;
 }
+
+/* lime */
 #main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(3) .poly {
-    -webkit-clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    clip-path: polygon(55% 60%, 40% 35%, 50% 40%);
-    background-color: darksalmon;
+    -webkit-clip-path: polygon(34.16% 42.61%,         34.60% 33.30%,        41.24% 38.81%);
+    clip-path: polygon(34.16% 42.61%,         34.60% 33.30%,        41.24% 38.81%);
+    background-color: #ecf5cb;
 }
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(35.13% 41.48%,         35.45% 34.65%,        40.33% 38.69%);
+    clip-path: polygon(35.13% 41.48%,         35.45% 34.65%,        40.33% 38.69%);
+    background-color: #c6d31e;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(34.60% 33.30%,         38.92% 27.22%,        41.24% 38.81%);
+    clip-path: polygon(34.60% 33.30%,         38.92% 27.22%,        41.24% 38.81%);
+    background-color: #ecf5cb;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(35.77% 33.63%,         38.94% 29.17%,        40.64% 37.67%);
+    clip-path: polygon(35.77% 33.63%,         38.94% 29.17%,        40.64% 37.67%);
+    background-color: #c6d31e;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(38.92% 27.22%,         44.60% 27.93%,        41.24% 38.81%);
+    clip-path: polygon(38.92% 27.22%,         44.60% 27.93%,        41.24% 38.81%);
+    background-color: #ecf5cb;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(39.61% 28.81%,         43.78% 29.33%,        41.31% 37.31%);
+    clip-path: polygon(39.61% 28.81%,         43.78% 29.33%,        41.31% 37.31%);
+    background-color: #c6d31e;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(44.60% 27.93%,         48.31% 35.01%,        41.24% 38.81%);
+    clip-path: polygon(44.60% 27.93%,         48.31% 35.01%,        41.24% 38.81%);
+    background-color: #ecf5cb;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(44.40% 29.85%,         47.13% 35.04%,        41.93% 37.83%);
+    clip-path: polygon(44.40% 29.85%,         47.13% 35.04%,        41.93% 37.83%);
+    background-color: #c6d31e;
+}
+
+/* glass */
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(56.39% 76.08%,         52.48% 77.25%,        57.93% 59.66%);
+    clip-path: polygon(56.39% 76.08%,         52.48% 77.25%,        57.93% 59.66%);
+    background-color: #a3a3a3;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(52.48% 77.25%,         47.81% 77.25%,        54.23% 71.72%);
+    clip-path: polygon(52.48% 77.25%,         47.81% 77.25%,        54.23% 71.72%);
+    background-color: #a9aaa9;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(13) .poly {
+    -webkit-clip-path: polygon(47.81% 77.25%,         45.30% 69.83%,        50.17% 75.22%);
+    clip-path: polygon(47.81% 77.25%,         45.30% 69.83%,        50.17% 75.22%);
+    background-color: #b7b7b7;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(14) .poly {
+    -webkit-clip-path: polygon(47.81% 77.25%,         43.28% 76.08%,        41.68% 59.13%);
+    clip-path: polygon(47.81% 77.25%,         43.28% 76.08%,        41.68% 59.13%);
+    background-color: #8e8e8e;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(15) .poly {
+    -webkit-clip-path: polygon(57.93% 59.66%,         54.23% 71.72%,        56.32% 54.82%);
+    clip-path: polygon(57.93% 59.66%,         54.23% 71.72%,        56.32% 54.82%);
+    background-color: #d9dcce;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(16) .poly {
+    -webkit-clip-path: polygon(54.23% 71.72%,         50.17% 75.22%,        56.32% 54.82%);
+    clip-path: polygon(54.23% 71.72%,         50.17% 75.22%,        56.32% 54.82%);
+    background-color: #c5c7bf;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(17) .poly {
+    -webkit-clip-path: polygon(50.17% 75.22%,         46.44% 47.07%,        56.32% 54.82%);
+    clip-path: polygon(50.17% 75.22%,         46.44% 47.07%,        56.32% 54.82%);
+    background-color: #dcdfd3;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(18) .poly {
+    -webkit-clip-path: polygon(50.17% 75.22%,         45.30% 69.83%,        46.44% 47.07%);
+    clip-path: polygon(50.17% 75.22%,         45.30% 69.83%,        46.44% 47.07%);
+    background-color: #cdd1c0;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(19) .poly {
+    -webkit-clip-path: polygon(45.30% 69.83%,         39.61% 37.10%,        46.44% 47.07%);
+    clip-path: polygon(45.30% 69.83%,         39.61% 37.10%,        46.44% 47.07%);
+    background-color: #caccbe;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(20) .poly {
+    -webkit-clip-path: polygon(45.30% 69.83%,         41.68% 59.13%,        39.61% 37.10%);
+    clip-path: polygon(45.30% 69.83%,         41.68% 59.13%,        39.61% 37.10%);
+    background-color: #9ba09a;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(21) .poly {
+    -webkit-clip-path: polygon(57.93% 59.65%,         56.32% 54.82%,        60.06% 37.10%);
+    clip-path: polygon(57.93% 59.65%,         56.32% 54.82%,        60.06% 37.10%);
+    background-color: #ebede4;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(22) .poly {
+    -webkit-clip-path: polygon(56.32% 54.82%,         46.44% 47.07%,        60.06% 37.10%);
+    clip-path: polygon(56.32% 54.82%,         46.44% 47.07%,        60.06% 37.10%);
+    background-color: #d7dac8;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(23) .poly {
+    -webkit-clip-path: polygon(46.44% 47.07%,         39.61% 37.10%,        60.06% 37.10%);
+    clip-path: polygon(46.44% 47.07%,         39.61% 37.10%,        60.06% 37.10%);
+    background-color: #dddfd3;
+}
+
+/* mint */
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(24) .poly {
+    -webkit-clip-path: polygon(44.24% 37.10%,         41.58% 37.10%,        44.30% 28.67%);
+    clip-path: polygon(44.24% 37.10%,         41.58% 37.10%,        44.30% 28.67%);
+    background-color: #4c8a1f;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(25) .poly {
+    -webkit-clip-path: polygon(44.28% 30.76%,         44.30% 28.67%,        47.73% 28.99%);
+    clip-path: polygon(44.28% 30.76%,         44.30% 28.67%,        47.73% 28.99%);
+    background-color: #66ab21;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(41.58% 37.10%,         39.61% 37.10%,        38.07% 35.12%);
+    clip-path: polygon(41.58% 37.10%,         39.61% 37.10%,        38.07% 35.12%);
+    background-color: #559822;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(38.59% 35.79%,         37.34% 37.67%,        38.07% 35.12%);
+    clip-path: polygon(38.59% 35.79%,         37.34% 37.67%,        38.07% 35.12%);
+    background-color: #81b51c;
+}
+#main-wrapper.mojito .animation-wrap .poly-wrap:nth-child(28) .poly {
+    -webkit-clip-path: polygon(44.40% 29.85%,         47.13% 35.04%,        41.93% 37.83%);
+    clip-path: polygon(44.40% 29.85%,         47.13% 35.04%,        41.93% 37.83%);
+    background-color: transparent;
+}
+
+
 
 /* ---------------------- MOSCOW MULE ---------------------- */
 /* greens */
