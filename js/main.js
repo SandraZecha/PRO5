@@ -36,6 +36,20 @@ function toggleIngredients() {
     }
 }
 
+
+//shining function - add shining overlay to cocktail
+function cocktailShine(t) {
+    //interval - start func every 7 seconds
+    setInterval(function () {
+        setTimeout(function () {
+            t.addClass("shine")
+        }, 4000);
+        setTimeout(function () {
+            t.removeClass("shine")
+        }, 6000);
+    }, 7000)
+}
+
 $(document).ready(function () {
     let newCocktail, newClass;
 
@@ -95,5 +109,11 @@ $(document).ready(function () {
     $(".mix-it a").on("click", function () {
         $('.cocktail-ingredients').toggleClass("inactive active");
     });
+
+    //call cocktail shine func for shimmer effect
+    $("body").each(function () {
+        cocktailShine($(this))
+    });
+
 
 });

@@ -17,6 +17,9 @@ body, html {
     margin: 0;
     overflow: hidden;
     background-color: #101010;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
 }
 
 a:hover {
@@ -368,4 +371,197 @@ ul {
     left: 20%;
     z-index:2;
     transition: 0.8s cubic-bezier(0.62, 0.02, 0.34, 1);
+}
+
+
+/* SHIMMER EFFECT */
+/* shimmer effect only on cocktails, not ingredients */
+.animation-wrap .poly-wrap .poly::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.shine .magic-stuff .poly-wrap:nth-child(1) .poly::before {
+    -webkit-animation: shine 0.8s 0.07s forwards;
+    -moz-animation: shine 0.8s 0.07s forwards;
+    animation: shine 0.8s 0.07s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(2) .poly::before {
+    -webkit-animation: shine 0.8s 0.12s forwards;
+    -moz-animation: shine 0.8s 0.12s forwards;
+    animation: shine 0.8s 0.12s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(3) .poly::before {
+    -webkit-animation: shine 0.8s 0.17s forwards;
+    -moz-animation: shine 0.8s 0.17s forwards;
+    animation: shine 0.8s 0.17s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(4) .poly::before {
+    -webkit-animation: shine 0.8s 0.22s forwards;
+    -moz-animation: shine 0.8s 0.22s forwards;
+    animation: shine 0.8s 0.22s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(5) .poly::before {
+    -webkit-animation: shine 0.8s 0.27s forwards;
+    -moz-animation: shine 0.8s 0.27s forwards;
+    animation: shine 0.8s 0.27s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(6) .poly::before {
+    -webkit-animation: shine 0.8s 0.32s forwards;
+    -moz-animation: shine 0.8s 0.32s forwards;
+    animation: shine 0.8s 0.32s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(7) .poly::before {
+    -webkit-animation: shine 0.8s 0.37s forwards;
+    -moz-animation: shine 0.8s 0.37s forwards;
+    animation: shine 0.8s 0.37s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(8) .poly::before {
+    -webkit-animation: shine 0.8s 0.42s forwards;
+    -moz-animation: shine 0.8s 0.42s forwards;
+    animation: shine 0.8s 0.42s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(9) .poly::before {
+    -webkit-animation: shine 0.8s 0.47s forwards;
+    -moz-animation: shine 0.8s 0.47s forwards;
+    animation: shine 0.8s 0.47s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(10) .poly::before {
+    -webkit-animation: shine 0.8s 0.52s forwards;
+    -moz-animation: shine 0.8s 0.52s forwards;
+    animation: shine 0.8s 0.52s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(11) .poly::before {
+    -webkit-animation: shine 0.8s 0.57s forwards;
+    -moz-animation: shine 0.8s 0.57s forwards;
+    animation: shine 0.8s 0.57s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(12) .poly::before {
+    -webkit-animation: shine 0.8s 0.62s forwards;
+    -moz-animation: shine 0.8s 0.62s forwards;
+    animation: shine 0.8s 0.62s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(13) .poly::before {
+    -webkit-animation: shine 0.8s 0.67s forwards;
+    -moz-animation: shine 0.8s 0.67s forwards;
+    animation: shine 0.8s 0.67s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(14) .poly::before {
+    -webkit-animation: shine 0.8s 0.72s forwards;
+    -moz-animation: shine 0.8s 0.72s forwards;
+    animation: shine 0.8s 0.72s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(15) .poly::before {
+    -webkit-animation: shine 0.8s 0.77s forwards;
+    -moz-animation: shine 0.8s 0.77s forwards;
+    animation: shine 0.8s 0.77s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(16) .poly::before {
+    -webkit-animation: shine 0.8s 0.82s forwards;
+    -moz-animation: shine 0.8s 0.82s forwards;
+    animation: shine 0.8s 0.82s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(17) .poly::before {
+    -webkit-animation: shine 0.8s 0.87s forwards;
+    -moz-animation: shine 0.8s 0.87s forwards;
+    animation: shine 0.8s 0.87s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(18) .poly::before {
+    -webkit-animation: shine 0.8s 0.92s forwards;
+    -moz-animation: shine 0.8s 0.92s forwards;
+    animation: shine 0.8s 0.92s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(19) .poly::before {
+    -webkit-animation: shine 0.8s 0.97s forwards;
+    -moz-animation: shine 0.8s 0.97s forwards;
+    animation: shine 0.8s 0.97s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(20) .poly::before {
+    -webkit-animation: shine 0.8s 1.02s forwards;
+    -moz-animation: shine 0.8s 1.02s forwards;
+    animation: shine 0.8s 1.02s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(21) .poly::before {
+    -webkit-animation: shine 0.8s 1.07s forwards;
+    -moz-animation: shine 0.8s 1.07s forwards;
+    animation: shine 0.8s 1.07s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(22) .poly::before {
+    -webkit-animation: shine 0.8s 1.12s forwards;
+    -moz-animation: shine 0.8s 1.12s forwards;
+    animation: shine 0.8s 1.12s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(23) .poly::before {
+    -webkit-animation: shine 0.8s 1.17s forwards;
+    -moz-animation: shine 0.8s 1.17s forwards;
+    animation: shine 0.8s 1.17s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(24) .poly::before {
+    -webkit-animation: shine 0.8s 1.22s forwards;
+    -moz-animation: shine 0.8s 1.22s forwards;
+    animation: shine 0.8s 1.22s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(25) .poly::before {
+    -webkit-animation: shine 0.8s 1.27s forwards;
+    -moz-animation: shine 0.8s 1.27s forwards;
+    animation: shine 0.8s 1.27s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(26) .poly::before {
+    -webkit-animation: shine 0.8s 1.32s forwards;
+    -moz-animation: shine 0.8s 1.32s forwards;
+    animation: shine 0.8s 1.32s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(27) .poly::before {
+    -webkit-animation: shine 0.8s 1.37s forwards;
+    -moz-animation: shine 0.8s 1.37s forwards;
+    animation: shine 0.8s 1.37s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(28) .poly::before {
+    -webkit-animation: shine 0.8s 1.42s forwards;
+    -moz-animation: shine 0.8s 1.42s forwards;
+    animation: shine 0.8s 1.42s forwards;
+}
+.shine .magic-stuff .poly-wrap:nth-child(29) .poly::before {
+    -webkit-animation: shine 0.8s 1.47s forwards;
+    -moz-animation: shine 0.8s 1.47s forwards;
+    animation: shine 0.8s 1.47s forwards;
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    35% {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+@-moz-keyframes shine {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    35% {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+@keyframes shine {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    35% {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
 }
