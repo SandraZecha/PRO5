@@ -1228,54 +1228,590 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ---------------------- BLOODY MARY ---------------------- */
-/*Ingredient 1 */
+/* Ingredient 1 - vodka */
 #main-wrapper.bloodymary .position-one .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #a9a9a9;
 }
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #b7b7b7;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #bebebe;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #d5d5d5;
+}
+#main-wrapper.bloodymary .position-one .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #e4e4e4;
+}
+
 /*Ingredient 2 */
 #main-wrapper.bloodymary .position-two .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #a9a9a9;
 }
-/*Ingredient 3 */
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #b7b7b7;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #bebebe;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #d5d5d5;
+}
+#main-wrapper.bloodymary .position-two .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #e4e4e4;
+}
+
+/* Ingredient 3 - lemon */
 #main-wrapper.bloodymary .position-three .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    background-color: #f6f9d1;
 }
-/*Ingredient 4 */
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    background-color: #f7df42;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    background-color: #f7df42;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    background-color: #f7df42;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.bloodymary .position-three .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    background-color: #f7df42;
+}
+
+/* Ingredient 4 - salt and pepper */
 #main-wrapper.bloodymary .position-four .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(47.73% 65.91%,         49% 59.76%,        52.27% 62.13%);
+    clip-path: polygon(47.73% 65.91%,         49% 59.76%,        52.27% 62.13%);
+    background-color: #7a7169;
 }
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(52.27% 62.13%,         50.92% 68.29%,        47.73% 65.91%);
+    clip-path: polygon(52.27% 62.13%,         50.92% 68.29%,        47.73% 65.91%);
+    background-color: #746a5f;
+}
+
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(38.84% 77.62%,         40.92% 72.30%,        43.75% 76.21%);
+    clip-path: polygon(38.84% 77.62%,         40.92% 72.30%,        43.75% 76.21%);
+    background-color: #7a7169;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(43.75% 76.21%,         41.59% 81.52%,        38.84% 77.62%);
+    clip-path: polygon(43.75% 76.21%,         41.59% 81.52%,        38.84% 77.62%);
+    background-color: #746a5f;
+}
+
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(43.05% 78.24%,         43.05% 71.64%,        46.56% 71.64%);
+    clip-path: polygon(43.05% 78.24%,         43.05% 71.64%,        46.56% 71.64%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(46.56% 71.64%,         46.56% 78.24%,        43.05% 78.24%);
+    clip-path: polygon(46.56% 71.64%,         46.56% 78.24%,        43.05% 78.24%);
+    background-color: #e3e3e3;
+}
+
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(50% 79.72%,         51.57% 73.82%,        54.71% 76.75%);
+    clip-path: polygon(50% 79.72%,         51.57% 73.82%,        54.71% 76.75%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(54.71% 76.75%,         53.14% 82.66%,        50% 79.72%);
+    clip-path: polygon(54.71% 76.75%,         53.14% 82.66%,        50% 79.72%);
+    background-color: #e3e3e3;
+}
+
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(54.98% 80.73%,         57.06% 75.11%,        59.89% 79.01%);
+    clip-path: polygon(54.98% 80.73%,         57.06% 75.11%,        59.89% 79.01%);
+    background-color: #7a7169;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(59.89% 79.01%,         57.81% 84.33%,        54.98% 80.73%);
+    clip-path: polygon(59.89% 79.01%,         57.81% 84.33%,        54.98% 80.73%);
+    background-color: #746a5f;
+}
+
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(57.76% 79.03%,         57.44% 72.46%,        60.93% 71.85%);
+    clip-path: polygon(57.76% 79.03%,         57.44% 72.46%,        60.93% 71.85%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-four .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(60.93% 71.85%,         61.26% 78.41%,        57.76% 79.03%);
+    clip-path: polygon(60.93% 71.85%,         61.26% 78.41%,        57.76% 79.03%);
+    background-color: #e3e3e3;
+}
+
 /*Ingredient 5 */
 #main-wrapper.bloodymary .position-five .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #a9a9a9;
 }
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #b7b7b7;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #bebebe;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #d5d5d5;
+}
+#main-wrapper.bloodymary .position-five .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #e4e4e4;
+}
+
 /*Ingredient 6 */
 #main-wrapper.bloodymary .position-six .poly-wrap:nth-child(1) .poly {
-    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #a9a9a9;
 }
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #b7b7b7;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #bebebe;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #efefef;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #e0e0e0;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #d5d5d5;
+}
+#main-wrapper.bloodymary .position-six .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #e4e4e4;
+}
+
 /*Ingredient 7 */
 #main-wrapper.bloodymary .position-seven .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    background-color: transparent;
 }
+
 /*Ingredient 8 */
 #main-wrapper.bloodymary .position-eight .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
     clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
-    background-color: darkred;
+    background-color: transparent;
 }
+
+
+/* ---------------------- CUBA LIBRE ---------------------- */
+/* Ingredient 1 - rum */
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #8c5a17;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #985e11;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #9e641f;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #bf8243;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #c79b79;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #bf8c5f;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #b5835b;
+}
+#main-wrapper.cubalibre .position-one .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #c79562;
+}
+
+/* Ingredient 2 - lemon */
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    background-color: #f7df42;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    background-color: #f7df42;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    background-color: #f7df42;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    background-color: #f6f9d1;
+}
+#main-wrapper.cubalibre .position-two .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    background-color: #f7df42;
+}
+
+/* Ingredient 3 - cola */
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: #5b3f33;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: #664033;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: #87553f;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: #9b6d57;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: #c9b4aa;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: #bfa395;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: #a58880;
+}
+#main-wrapper.cubalibre .position-three .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: #b2968a;
+}
+
+/* Ingredient 4 - ice cubes */
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    background-color: #efefef;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    background-color: #e3e3e3;
+}
+
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    background-color: #efefef;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    background-color: #e3e3e3;
+}
+
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    background-color: transparent;
+}
+
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    background-color: transparent;
+}
+
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    clip-path: polygon(38.84% 78.80%,         38.84% 60.13%,        49.17% 60.13%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    clip-path: polygon(49.17% 60.13%,         49.17% 78.80%,        38.84% 78.80%);
+    background-color: transparent;
+}
+
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    clip-path: polygon(47.41% 76%,         52.01% 59.29%,        61.26% 67.60%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-four .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    clip-path: polygon(61.26% 67.60%,         56.66% 84.31%,        47.41% 76%);
+    background-color: transparent;
+}
+
+/* Ingredient 5 - lime */
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    clip-path: polygon(61.26% 55.35%,         61.26% 72.34%,        50% 63.85%);
+    background-color: #f1ffcd;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    clip-path: polygon(59.76% 57.61%,         59.76% 70.08%,        51.5% 63.85%);
+    background-color: #c6d319;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    clip-path: polygon(61.26% 72.34%,         54.66% 84.36%,        50% 63.85%);
+    background-color: #f1ffcd;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    clip-path: polygon(59.32% 72.01%,         54.48% 80.83%,        51.06% 65.78%);
+    background-color: #c6d319;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    clip-path: polygon(54.66% 84.36%,         45.34% 84.36%,        50% 63.85%);
+    background-color: #f1ffcd;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    clip-path: polygon(53.42% 81.63%,         46.58% 81.63%,        50% 66.58%);
+    background-color: #c6d319;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    clip-path: polygon(45.34% 84.36%,         38.74% 72.34%,        50% 63.85%);
+    background-color: #f1ffcd;
+}
+#main-wrapper.cubalibre .position-five .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    clip-path: polygon(45.52% 80.83%,         40.68% 72.01%,        48.94% 65.78%);
+    background-color: #c6d319;
+}
+
+/* Ingredient 6 */
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    clip-path: polygon(50% 84.32%,         43.73% 77.28%,        47.18% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    clip-path: polygon(43.73% 77.28%,         42.06% 65.54%,        47.18% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.cubalibre .position-six .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: transparent;
+}
+
+/* Ingredient 7 */
+#main-wrapper.cubalibre .position-seven .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: transparent;
+}
+
+/* Ingredient 8 */
+#main-wrapper.cubalibre .position-eight .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    clip-path: polygon(50% 80%, 30% 45%, 40% 35%);
+    background-color: transparent;
+}
+
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */

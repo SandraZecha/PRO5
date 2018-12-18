@@ -36,11 +36,6 @@ function toggleIngredients() {
     }
 }
 
-//to check if next cocktail has less Polygons then current -> make smooth transition
-function checkForPolygons() {
-
-}
-
 $(document).ready(function () {
     let newCocktail, newClass;
 
@@ -55,7 +50,7 @@ $(document).ready(function () {
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
 
-        toggleIngredients();
+        //toggleIngredients();
 
         $("#main-wrapper").attr("class", newClass);
 
@@ -81,7 +76,7 @@ $(document).ready(function () {
         }
         newClass = cocktailList.eq(newCocktail).attr("class");
 
-        toggleIngredients();
+        //toggleIngredients();
 
         $("#main-wrapper").attr("class", newClass);
 

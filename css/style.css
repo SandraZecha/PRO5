@@ -212,6 +212,9 @@ ul {
     height: 100%;
     opacity: 0.85;
 }
+.cocktail-ingredients .poly-wrap .poly {
+    opacity: 1;
+}
 
 /* ---------------------------- INGREDIENT ANIMATIONS ---------------------------- */
 .cocktail-ingredients {
