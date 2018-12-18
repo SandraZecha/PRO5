@@ -3603,6 +3603,36 @@
 }
 
 /* Ingredient 6 - mint leaves */
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(51.67% 84.31%,         54.49% 70.99%,        61.21% 67.81%);
+    clip-path: polygon(51.67% 84.31%,         54.49% 70.99%,        61.21% 67.81%);
+    background-color: #72ae2d;
+}
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(51.67% 84.31%,         61.21% 67.81%,        57.86% 79.57%);
+    clip-path: polygon(51.67% 84.31%,         61.21% 67.81%,        57.86% 79.57%);
+    background-color: #4f8a32;
+}
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(51.67% 84.31%,         48.34% 72.99%,        44.50% 78.03%);
+    clip-path: polygon(51.67% 84.31%,         48.34% 72.99%,        44.50% 78.03%);
+    background-color: #4f8a32;
+}
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(51.67% 84.31%,         48.34% 72.99%,        50.16% 65.06%);
+    clip-path: polygon(51.67% 84.31%,         48.34% 72.99%,        50.16% 65.06%);
+    background-color: #67ab2f;
+}
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(44.50% 78.03%,         48.34% 72.99%,         38.84% 58.56%);
+    clip-path: polygon(44.50% 78.03%,         48.34% 72.99%,         38.84% 58.56%);
+    background-color: #559832;
+}
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
+    clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
+    background-color: #82bb26;
+}
 
 /* Ingredient 7 */
 #main-wrapper.mojito .position-seven .poly-wrap:nth-child(1) .poly {
