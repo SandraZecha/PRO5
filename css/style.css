@@ -74,18 +74,21 @@ ul {
     margin: 50px;
 }
 
-/* overview button */
-.interface .overview-nav {
+/* random button */
+.interface .random-nav {
     position: fixed;
     top: 5%;
     width: 100%;
     height: 35px;
     z-index: 1;
 }
-.interface .overview-nav img {
+.interface .random-nav img {
     position: absolute;
     left: 3%;
     height: 100%;
+}
+.interface .random-nav img:hover {
+    cursor: pointer;
 }
 
 /* cocktail navigation */
@@ -171,7 +174,7 @@ ul {
     }
 }
 
-.interface .overview-nav img:hover {
+.interface .random-nav img:hover {
     animation: shaker 0.82s
                 cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -374,8 +377,8 @@ ul {
 }
 
 
-/* SHIMMER EFFECT */
-/* shimmer effect only on cocktails, not ingredients */
+/* ---------------------------- SHINE EFFECT ---------------------------- */
+/* shine effect only on cocktails, not ingredients (selection with .animation-wrap) */
 .animation-wrap .poly-wrap .poly::before {
     content: "";
     width: 100%;

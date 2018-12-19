@@ -1,4 +1,4 @@
-var cocktailList = $('.cocktail-indices').children(), current;
+var cocktailList = $('.cocktail-indices').children(), current, randomIndex;
 
 //updates the "current" variable to get the index of the current Cocktail
 function getCurrentIndex () {
@@ -9,6 +9,14 @@ function getCurrentIndex () {
             current = $(this).index();
         }
     });
+}
+
+//updates the "randomIndex" variable to get the index of the next displayed random Cocktail
+function getRandomIndex () {
+    let min = 0, max = 9;
+    //generate random number as index between min and max
+    //floor to get an integer
+    randomIndex = Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 //update the ingredients based on current Cocktail
@@ -55,8 +63,10 @@ $(document).ready(function () {
 
     //Change to prev Cocktail on click
     $(".prev a").on("click", function () {
+        //get the index of currently displayed cocktail
         getCurrentIndex();
 
+        //check if it's the first one
         if(current <= 0){
             newCocktail = 9;
         } else {
@@ -66,6 +76,7 @@ $(document).ready(function () {
 
         //toggleIngredients();
 
+        //change class of main-wrapper to the new one
         $("#main-wrapper").attr("class", newClass);
 
         //smooth heading change
@@ -81,8 +92,10 @@ $(document).ready(function () {
 
     //Change to next Cocktail on click
     $(".next a").on("click", function () {
+        //get the index of currently displayed cocktail
         getCurrentIndex();
 
+        //check if it's the last one
         if(current >= 9){
             newCocktail = 0;
         } else {
@@ -92,6 +105,7 @@ $(document).ready(function () {
 
         //toggleIngredients();
 
+        //change class of main-wrapper to the new one
         $("#main-wrapper").attr("class", newClass);
 
         //smooth heading change
@@ -108,6 +122,30 @@ $(document).ready(function () {
     //Show ingredients of cocktail on click
     $(".mix-it a").on("click", function () {
         $('.cocktail-ingredients').toggleClass("inactive active");
+    });
+
+    //Change to random Cocktail on click of shaker icon
+    $(".random-nav img").on("click", function () {
+        //get new random index and current one and check if they aren't the same
+        getRandomIndex();
+        getCurrentIndex();
+
+        while (randomIndex === current) {
+            getRandomIndex();
+        }
+        newClass = cocktailList.eq(randomIndex).attr("class");
+
+        //change class of main-wrapper to the new one
+        $("#main-wrapper").attr("class", newClass);
+
+        //smooth heading change
+        let heading = $(".main-heading h1");
+        heading.fadeOut(function(){
+            heading.text(cocktailList.eq(randomIndex).find("p:first").text());
+            heading.fadeIn();
+        });
+
+        getCurrentIngredients();
     });
 
     //call cocktail shine func for shimmer effect
