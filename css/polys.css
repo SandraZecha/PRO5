@@ -3943,7 +3943,7 @@
     clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     background-color: transparent;
 }
-#main-wrapper.mojito .position-six .poly-wrap:nth-child(7) .poly {
+#main-wrapper.mojito .position-six .poly-wrap:nth-child(8) .poly {
     -webkit-clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     background-color: transparent;
@@ -4116,6 +4116,36 @@
     -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
     clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
     background-color: #edece4;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    clip-path: polygon(42.06% 65.54%,         44.36% 55.86%,        47.18% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    clip-path: polygon(44.36% 55.86%,         50% 42.88%,        50% 84.32%);
+    background-color: transparent;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    clip-path: polygon(50% 42.88%,         55.65% 55.86%,        50% 84.32%);
+    background-color: transparent;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    clip-path: polygon(55.65% 55.86%,         57.95% 65.54%,        52.83% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(13) .poly {
+    -webkit-clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    clip-path: polygon(57.95% 65.54%,         56.34% 77.28%,        52.83% 70.09%);
+    background-color: transparent;
+}
+#main-wrapper.moscowmule .position-two .poly-wrap:nth-child(14) .poly {
+    -webkit-clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
+    background-color: transparent;
 }
 
 /* Ingredient 3 - lime */
@@ -4332,7 +4362,7 @@
     clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     background-color: transparent;
 }
-#main-wrapper.moscowmule .position-six .poly-wrap:nth-child(7) .poly {
+#main-wrapper.moscowmule .position-six .poly-wrap:nth-child(8) .poly {
     -webkit-clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     clip-path: polygon(48.34% 72.99%,         50.16% 65.06%,        38.84% 58.56%);
     background-color: transparent;
@@ -5585,9 +5615,6 @@
     clip-path: polygon(52.83% 70.09%,         56.34% 77.28%,        50% 84.32%);
     background-color: transparent;
 }
-
-
-
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
