@@ -1,3 +1,158 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- GLASSES START -------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* left */
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(35.73% 81.26%,       37.95% 79.54%,      37.05% 81.59%);
+    clip-path: polygon(35.73% 81.26%,       37.95% 79.54%,      37.05% 81.59%);
+    background-color: #b0a4b0;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(37.05% 81.59%,       37.95% 79.54%,      40.08% 81.59%);
+    clip-path: polygon(37.05% 81.59%,       37.95% 79.54%,      40.08% 81.59%);
+    background-color: #baa9b1;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(37.95% 79.54%,       40.08% 81.59%,      39.18% 79.54%);
+    clip-path: polygon(37.95% 79.54%,       40.08% 81.59%,      39.18% 79.54%);
+    background-color: #d2bfd2;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(40.08% 81.59%,       39.18% 79.54%,      41.40% 81.26%);
+    clip-path: polygon(40.08% 81.59%,       39.18% 79.54%,      41.40% 81.26%);
+    background-color: #dfcdd6;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(39.18% 79.54%,      37.95% 79.54%,      39.03% 75.51%);
+    clip-path: polygon(39.18% 79.54%,      37.95% 79.54%,      39.03% 75.51%);
+    background-color: #b8ada9;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(37.95% 79.54%,       38.09% 75.51%,      39.03% 75.51%);
+    clip-path: polygon(37.95% 79.54%,       38.09% 75.51%,      39.03% 75.51%);
+    background-color: #d4c2c2;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(39.03% 75.51%,       38.09% 75.51%,      35.30% 71.72%);
+    clip-path: polygon(39.03% 75.51%,       38.09% 75.51%,      35.30% 71.72%);
+    background-color: #b09fa7;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(39.03% 75.51%,       35.30% 71.72%,      35.68% 46.85%);
+    clip-path: polygon(39.03% 75.51%,       35.30% 71.72%,      35.68% 46.85%);
+    background-color: #bab2b1;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(35.30% 71.72%,       34.41% 65.83%,      35.68% 46.85%);
+    clip-path: polygon(35.30% 71.72%,       34.41% 65.83%,      35.68% 46.85%);
+    background-color: #a89b9b;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(39.03% 75.51%,       35.68% 46.85%,      41.45% 46.85%);
+    clip-path: polygon(39.03% 75.51%,       35.68% 46.85%,      41.45% 46.85%);
+    background-color: #e4d4d6;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(39.03% 75.51%,       41.45% 46.85%,      42.72% 65.83%);
+    clip-path: polygon(39.03% 75.51%,       41.45% 46.85%,      42.72% 65.83%);
+    background-color: #f4e6f1;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(39.03% 75.51%,       42.72% 65.83%,      41.83% 71.72%);
+    clip-path: polygon(39.03% 75.51%,       42.72% 65.83%,      41.83% 71.72%);
+    background-color: #d6c6c7;
+}
+
+/* middle */
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(13) .poly {
+    -webkit-clip-path: polygon(47.60% 81.02%,       46.00% 62.11%,      49.57% 81.59%);
+    clip-path: polygon(47.60% 81.02%,       46.00% 62.11%,      49.57% 81.59%);
+    background-color: #9c9595;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(14) .poly {
+    -webkit-clip-path: polygon(49.57% 81.59%,       46.00% 62.11%,      52.36% 78.90%);
+    clip-path: polygon(49.57% 81.59%,       46.00% 62.11%,      52.36% 78.90%);
+    background-color: #dcc7cc;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(15) .poly {
+    -webkit-clip-path: polygon(49.57% 81.59%,       52.36% 78.90%,      51.60% 81.59%);
+    clip-path: polygon(49.57% 81.59%,       52.36% 78.90%,      51.60% 81.59%);
+    background-color: #b09fa7;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(16) .poly {
+    -webkit-clip-path: polygon(49.57% 71.53%,       46.00% 62.11%,      54.89% 62.11%);
+    clip-path: polygon(49.57% 71.53%,       46.00% 62.11%,      54.89% 62.11%);
+    background-color: #e4d4d6;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(17) .poly {
+    -webkit-clip-path: polygon(49.57% 71.53%,       54.89% 62.11%,      52.36% 78.90%);
+    clip-path: polygon(49.57% 71.53%,       54.89% 62.11%,      52.36% 78.90%);
+    background-color: #dbced1;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(18) .poly {
+    -webkit-clip-path: polygon(52.36% 78.90%,       54.89% 62.11%,      53.97% 73.06%);
+    clip-path: polygon(52.36% 78.90%,       54.89% 62.11%,      53.97% 73.06%);
+    background-color: #f4e6f1;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(19) .poly {
+    -webkit-clip-path: polygon(51.60% 81.59%,       53.97% 73.06%,      53.30% 81.02%);
+    clip-path: polygon(51.60% 81.59%,       53.97% 73.06%,      53.30% 81.02%);
+    background-color: #a89b9b;
+}
+
+/* right */
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(20) .poly {
+    -webkit-clip-path: polygon(59.07% 81.05%,       61.69% 78.65%,      60.53% 81.62%);
+    clip-path: polygon(59.07% 81.05%,       61.69% 78.65%,      60.53% 81.62%);
+    background-color: #b0a4b0;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(21) .poly {
+    -webkit-clip-path: polygon(60.53% 81.62%,       61.69% 78.65%,      63.88% 81.62%);
+    clip-path: polygon(60.53% 81.62%,       61.69% 78.65%,      63.88% 81.62%);
+    background-color: #ccb8c3;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(22) .poly {
+    -webkit-clip-path: polygon(63.88% 81.62%,       61.69% 78.65%,      62.73% 78.65%);
+    clip-path: polygon(63.88% 81.62%,       61.69% 78.65%,      62.73% 78.65%);
+    background-color: #d2bfd2;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(23) .poly {
+    -webkit-clip-path: polygon(63.88% 81.62%,       62.73% 78.65%,      65.34% 81.05%);
+    clip-path: polygon(63.88% 81.62%,       62.73% 78.65%,      65.34% 81.05%);
+    background-color: #dfcdd6;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(24) .poly {
+    -webkit-clip-path: polygon(61.69% 78.65%,       62.73% 78.65%,      61.75% 65.28%);
+    clip-path: polygon(61.69% 78.65%,       62.73% 78.65%,      61.75% 65.28%);
+    background-color: #d1c2c2;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(25) .poly {
+    -webkit-clip-path: polygon(62.73% 78.65%,       61.75% 65.28%,      62.64% 65.28%);
+    clip-path: polygon(62.73% 78.65%,       61.75% 65.28%,      62.64% 65.28%);
+    background-color: #beb2b0;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(62.64% 65.28%,       61.75% 65.28%,      56.35% 53.46%);
+    clip-path: polygon(62.64% 65.28%,       61.75% 65.28%,      56.35% 53.46%);
+    background-color: #a89b9b;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(62.64% 65.28%,       56.35% 53.46%,      64.26% 57.13%);
+    clip-path: polygon(62.64% 65.28%,       56.35% 53.46%,      64.26% 57.13%);
+    background-color: #d6c6c7;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(28) .poly {
+    -webkit-clip-path: polygon(56.35% 53.46%,       67.87% 53.46%,      64.26% 57.13%);
+    clip-path: polygon(56.35% 53.46%,       67.87% 53.46%,      64.26% 57.13%);
+    background-color: #e4d4d6;
+}
+#main-wrapper.glasses .animation-wrap .poly-wrap:nth-child(29) .poly {
+    -webkit-clip-path: polygon(62.64% 65.28%,       64.26% 57.13%,      67.87% 53.46%);
+    clip-path: polygon(62.64% 65.28%,       64.26% 57.13%,      67.87% 53.46%);
+    background-color: #f4e6f1;
+}
+
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------- COCKTAILS -------------------------------------------------------------- */

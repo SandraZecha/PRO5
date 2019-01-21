@@ -44,7 +44,6 @@ function toggleIngredients() {
     }
 }
 
-
 //shining function - add shining overlay to cocktail
 function cocktailShine(t) {
     //interval - start func every 7 seconds
@@ -57,6 +56,8 @@ function cocktailShine(t) {
         }, 6000);
     }, 7000)
 }
+
+
 
 $(document).ready(function () {
     let newCocktail, newClass;
@@ -151,6 +152,12 @@ $(document).ready(function () {
     //call cocktail shine func for shimmer effect
     $("body").each(function () {
         cocktailShine($(this))
+    });
+
+    //Start screen
+    $(".start-it a").on("click", function () {
+        $('.start').hide();
+        $('.interface').show();;
     });
 
 

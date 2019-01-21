@@ -58,6 +58,61 @@ ul {
     display: none;
 }
 
+/* ---------------------------- START ---------------------------- */
+.start{
+    z-index: 100;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 10%;
+}
+.start-heading h1{
+    font-family: 'Wilderness', sans-serif;
+    font-weight: inherit;
+    font-size: 28em;
+    margin: 50px;
+}
+
+/* cocktail navigation */
+.start .start-nav-wrapper {
+    position: fixed;
+    top: 85%;
+    width: 100%;
+    z-index: 1;
+}
+.start .start-nav-wrapper .start-nav {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.start .start-nav-wrapper .start-nav li {
+    display: inline;
+}
+.start .start-nav-wrapper .start-nav li a {
+    display: inline-block;
+    font-family: 'Wilderness', sans-serif;
+    font-size: 5em;
+    color: #eceaea;
+    text-align: center;
+    padding: 14px 20px;
+    height: 30px;
+    width: 150px;
+    text-decoration: none;
+}
+.start .start-nav-wrapper .start-nav li a.start-button {
+    background: url(./images/border.png);
+    background-size: 190px 58px;
+}
+.start .start-nav-wrapper .start-nav li a p {
+    line-height: 30px;
+    margin: 5px;
+}
+.start .start-nav-wrapper .start-nav li img {
+    height: 100%;
+}
+
+
 /* ---------------------------- INTERFACE ---------------------------- */
 .interface{
     z-index: 100;
@@ -66,6 +121,7 @@ ul {
     width: 100%;
     left: 0;
     top: 0;
+    display: none;
 }
 .main-heading h1{
     font-family: 'Wilderness', sans-serif;
