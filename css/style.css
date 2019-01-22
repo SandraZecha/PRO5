@@ -73,12 +73,6 @@ ul {
     width: 100%;
     left: 0;
 }
-.start-heading h1{
-    font-family: 'Wilderness', sans-serif;
-    font-weight: inherit;
-    font-size: 28em;
-    margin: 50px;
-}
 /* scale wrapper for start sequence bigger for a nicer splitter animation */
 #start-wrapper .cocktail-animations {
     transform: scale(1);
@@ -86,6 +80,87 @@ ul {
     left:0;
     z-index:2;
     transition: 0.8s cubic-bezier(0.88, 0.005, 0, 1);
+}
+
+/* lettering */
+
+/*.start-heading h1{
+    font-family: 'Wilderness', sans-serif;
+    font-weight: inherit;
+    font-size: 28em;
+    margin: 50px;
+}*/
+.start{
+    z-index: 100;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 10%;
+}
+.start-heading {
+    padding: 5% 30%;
+}
+
+@keyframes lettering {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+#m_path {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .4s linear forwards;
+}
+
+#i_path1 {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .6s linear forwards .4s;
+}
+
+#x_path {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .6s linear forwards .6s;
+}
+
+#i_path2 {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .7s linear forwards .8s;
+}
+
+#t_path1 {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .6s linear forwards 1s;
+}
+#t_path2 {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .6s linear forwards 1.2s;
+}
+
+#end_path {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    stroke: #ffffff;
+    stroke-width: 40;
+    animation: lettering .6s linear forwards 1.3s;
 }
 
 /* ---------------------------- INTERFACE ---------------------------- */
