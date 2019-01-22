@@ -61,7 +61,7 @@ function cocktailShine(t) {
 function startTimer() {
     //timer - quit start sequence after 7 sec
     setTimeout(function () {
-        $('#start-wrapper').toggleClass("glasses glasses-shuttered");
+        $('#start-wrapper').removeClass("glasses").addClass("glasses-shuttered");
 
         setTimeout(function () {
             $('#start-wrapper').fadeOut(function(){
@@ -177,7 +177,7 @@ $(document).ready(function () {
 
     //Start screen - on click on window change sequences
     $("#start-wrapper .cocktail-animations").on("click", function () {
-        $('#start-wrapper').toggleClass("glasses glasses-shuttered");
+        $('#start-wrapper').removeClass("glasses").addClass("glasses-shuttered");
 
         setTimeout(function () {
             $('#start-wrapper').fadeOut(function(){
