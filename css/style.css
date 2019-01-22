@@ -59,13 +59,19 @@ ul {
 }
 
 /* ---------------------------- START ---------------------------- */
-.start{
+#start-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(./images/blackboard.png);
+    background-size: cover;
+}
+.start-visible{
     z-index: 100;
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
-    top: 10%;
 }
 .start-heading h1{
     font-family: 'Wilderness', sans-serif;
@@ -73,45 +79,14 @@ ul {
     font-size: 28em;
     margin: 50px;
 }
-
-/* cocktail navigation */
-.start .start-nav-wrapper {
-    position: fixed;
-    top: 85%;
-    width: 100%;
-    z-index: 1;
+/* scale wrapper for start sequence bigger for a nicer splitter animation */
+#start-wrapper .cocktail-animations {
+    transform: scale(1);
+    top:0;
+    left:0;
+    z-index:2;
+    transition: 0.8s cubic-bezier(0.88, 0.005, 0, 1);
 }
-.start .start-nav-wrapper .start-nav {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-}
-.start .start-nav-wrapper .start-nav li {
-    display: inline;
-}
-.start .start-nav-wrapper .start-nav li a {
-    display: inline-block;
-    font-family: 'Wilderness', sans-serif;
-    font-size: 5em;
-    color: #eceaea;
-    text-align: center;
-    padding: 14px 20px;
-    height: 30px;
-    width: 150px;
-    text-decoration: none;
-}
-.start .start-nav-wrapper .start-nav li a.start-button {
-    background: url(./images/border.png);
-    background-size: 190px 58px;
-}
-.start .start-nav-wrapper .start-nav li a p {
-    line-height: 30px;
-    margin: 5px;
-}
-.start .start-nav-wrapper .start-nav li img {
-    height: 100%;
-}
-
 
 /* ---------------------------- INTERFACE ---------------------------- */
 .interface{

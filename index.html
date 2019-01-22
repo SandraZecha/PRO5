@@ -7,16 +7,135 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/polys.css" rel="stylesheet">
+    <link href="css/start.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
+    <!-- wrapper for start screen -->
+    <!-- !!!!!!!!!!!!!!!!!CHANGE CLASS TO START-INVISIBLE HERE WITH JS AFTER CLICK / TIMER!!!!!!!!!!!!!!!!! -->
+    <div id="start-wrapper" class="start-visible glasses">
+        <!-- container for the visualizations of the glasses -->
+        <div class="cocktail-animations">
+            <div class="cocktail-mover">
+                <div class="animation-wrap magic-stuff">
+                    <!-- 30 poly pieces -->
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                    <div class="poly-wrap">
+                        <div class="poly"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="start-nav-wrapper">
+            <ul class="start-nav">
+                <li class="start-it">
+                    <a class="start-button" href="#">
+                        <p>Lets go!</p>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
+
+        <div class="start-heading">
+            <h1>Mix it!</h1>
+        </div>
+    </div>
+    <!-- start screen end -->
+
+
     <!-- wrapper for all elements -->
     <!-- !!!!!!!!!!!!!!!!!CHANGE CLASS OF COCKTAIL HERE WITH JS!!!!!!!!!!!!!!!!! -->
-    <div id="main-wrapper" class="glasses">
+    <div id="main-wrapper" class="bloodymary">
 
         <!-- hidden container to change cocktails and ingredients based on indices -->
         <div class="cocktail-indices">
-            <div class="glasses">
+            <!-- <div class="glasses">
                 <p>Glasses</p>
                 <div class="ingredient-indices">
                     <div>2cl vodka</div>
@@ -26,7 +145,7 @@
                     <div>1 dash tabasco</div>
                     <div>1 dash worcestersauce</div>
                 </div>
-            </div>
+            </div> -->
             <div class="bloodymary">
                 <p>Bloody Mary</p>
                 <div class="ingredient-indices">
@@ -518,23 +637,6 @@
             </div>
         </div>
 
-        <!-- container for start screen -->
-        <div class="start">
-            <div class="start-nav-wrapper">
-                <ul class="start-nav">
-                    <li class="start-it">
-                        <a class="start-button" href="#">
-                            <p>Lets go!</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="start-heading">
-                    <h1>Mix it!</h1>
-            </div>
-        </div>
-
         <!-- container for all interface items like nav, buttons etc. -->
         <div class="interface">
             <div class="cocktail-nav-wrapper">
@@ -553,17 +655,17 @@
                 </ul>
             </div>
 
+            <!-- when one clicks the "shaker" button, overview overlay is opened -->
+            <div class="overview"></div>
+            <!-- when one clicks the "random" button, a random cocktail is shown -->
             <div class="random-nav"><img src="css/images/shaker.png"></div>
 
             <div class="cocktail-info-wrapper">
                 <div class="main-heading">
-                    <h1>Glasses</h1>
+                    <h1>Bloody Mary</h1>
                 </div>
             </div>
         </div>
-
-        <!-- when one clicks the "shaker" button, overview overlay is opened -->
-        <div class="overview"></div>
 
         <!-- if site is opened in a incompatible browser, show message to change to Google Chrome -->
         <div class="browser-capability"></div>

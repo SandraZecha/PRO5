@@ -57,9 +57,25 @@ function cocktailShine(t) {
     }, 7000)
 }
 
+//Start Scree - timer if user doesn't click on window
+function startTimer() {
+    //timer - quit start sequence after 7 sec
+    setTimeout(function () {
+        $('#start-wrapper').toggleClass("glasses glasses-shuttered");
+
+        setTimeout(function () {
+            $('#start-wrapper').fadeOut(function(){
+                $('.interface').fadeIn();
+            });
+        }, 3000);
+     }, 10000);
+}
 
 
 $(document).ready(function () {
+    //start timer for start screen
+    startTimer();
+
     let newCocktail, newClass;
 
     //Change to prev Cocktail on click
@@ -154,10 +170,16 @@ $(document).ready(function () {
         cocktailShine($(this))
     });
 
-    //Start screen
-    $(".start-it a").on("click", function () {
-        $('.start').hide();
-        $('.interface').show();;
+
+    //Start screen - on click on window change sequences
+    $("#start-wrapper .cocktail-animations").on("click", function () {
+        $('#start-wrapper').toggleClass("glasses glasses-shuttered");
+
+        setTimeout(function () {
+            $('#start-wrapper').fadeOut(function(){
+                $('.interface').fadeIn();
+            });
+        }, 3000);
     });
 
 
