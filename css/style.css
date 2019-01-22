@@ -213,23 +213,23 @@ ul {
 .interface .cocktail-nav-wrapper .cocktail-nav li a {
     display: inline-block;
     font-family: 'Wilderness', sans-serif;
-    font-size: 4.5em;
+    font-size: 4.4em;
     color: #eceaea;
     text-align: center;
-    padding: 14px 20px;
-    height: 46.4px;
-    width: 152px;
+    padding: 5px 20px;
+    height: 50px;
+    width: 160px;
     text-decoration: none;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li a.mix-button {
     transition: background-image 0.4s ease-in-out;
-    background: url(./images/border.png);
-    background-size: 152px 46.4px;
+    background: url(./images/border-small.png);
+    background-size: 160px 50px;
     padding: 0;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li a.mix-button:hover {
-    background: url(./images/border-selected.png);
-    background-size: 152px 46.4px;
+    background: url(./images/border-bold.png);
+    background-size: 160px 50px;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li a p {
     line-height: 45px;
