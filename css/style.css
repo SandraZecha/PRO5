@@ -105,23 +105,6 @@ ul {
     margin: 50px;
 }
 
-/* random button */
-.interface .random-nav {
-    position: fixed;
-    top: 5%;
-    width: 100%;
-    height: 35px;
-    z-index: 1;
-}
-.interface .random-nav img {
-    position: absolute;
-    left: 3%;
-    height: 100%;
-}
-.interface .random-nav img:hover {
-    cursor: pointer;
-}
-
 /* cocktail navigation */
 .interface .cocktail-nav-wrapper {
     position: fixed;
@@ -140,20 +123,26 @@ ul {
 .interface .cocktail-nav-wrapper .cocktail-nav li a {
     display: inline-block;
     font-family: 'Wilderness', sans-serif;
-    font-size: 5em;
+    font-size: 4.5em;
     color: #eceaea;
     text-align: center;
     padding: 14px 20px;
-    height: 30px;
-    width: 150px;
+    height: 46.4px;
+    width: 152px;
     text-decoration: none;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li a.mix-button {
+    transition: background-image 0.4s ease-in-out;
     background: url(./images/border.png);
-    background-size: 190px 58px;
+    background-size: 152px 46.4px;
+    padding: 0;
+}
+.interface .cocktail-nav-wrapper .cocktail-nav li a.mix-button:hover {
+    background: url(./images/border-selected.png);
+    background-size: 152px 46.4px;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li a p {
-    line-height: 30px;
+    line-height: 45px;
     margin: 5px;
 }
 .interface .cocktail-nav-wrapper .cocktail-nav li img {
@@ -184,6 +173,23 @@ ul {
     margin: 0 auto;
     text-align: center;
     animation: jump-right 2s infinite;
+}
+
+/* random button */
+.interface .random-nav {
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    height: 35px;
+    z-index: 1;
+}
+.interface .random-nav img {
+    position: absolute;
+    left: 3%;
+    height: 100%;
+}
+.interface .random-nav img:hover {
+    cursor: pointer;
 }
 
 /* shaker icon animation */
