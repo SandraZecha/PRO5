@@ -170,6 +170,10 @@ $(document).ready(function () {
         cocktailShine($(this))
     });
 
+    $('.overview').on('click', function(){
+        $('body').toggleClass('open-nav');
+    });
+
 
     //Start screen - on click on window change sequences
     $("#start-wrapper .cocktail-animations").on("click", function () {
