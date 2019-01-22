@@ -67,8 +67,8 @@ function startTimer() {
             $('#start-wrapper').fadeOut(function(){
                 $('.interface').fadeIn();
             });
-        }, 3000);
-     }, 10000);
+        }, 2500);
+     }, 7000);
 }
 
 
