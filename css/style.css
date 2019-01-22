@@ -91,16 +91,30 @@ ul {
     font-size: 28em;
     margin: 50px;
 }*/
-.start{
+.start-names {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    bottom: 0;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+}
+.start-names p{
+    font-family: 'Wilderness', sans-serif;
+    font-weight: inherit;
+    font-size: 3.5em;
+}
+/*.start{
     z-index: 100;
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
     top: 10%;
-}
+}*/
 .start-heading {
-    padding: 5% 30%;
+    padding: 8% 30%;
 }
 
 @keyframes lettering {
