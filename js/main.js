@@ -142,7 +142,7 @@ $(document).ready(function () {
     });
 
     //Change to random Cocktail on click of shaker icon
-    $(".random-nav img").on("click", function () {
+    $(".random-nav").on("click", function () {
         //get new random index and current one and check if they aren't the same
         getRandomIndex();
         getCurrentIndex();

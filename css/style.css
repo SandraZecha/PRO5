@@ -250,7 +250,54 @@ ul {
     animation: jump-right 2s infinite;
 }
 
-/* random button */
+.interface-icons {
+    position: fixed;
+    top: 3.5%;
+    left: 1%;
+}
+.interface-icons li {
+    overflow: hidden;
+    /*background: #101010;*/
+    list-style: none;
+    white-space:nowrap;
+    border-radius: 25px;
+    display: inline-block;
+    height: 35px;
+    width: auto;
+    z-index: 1;
+}
+.interface-icons li p {
+    opacity: 0;
+    color: #eceaea;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    max-width: 0;
+    display: block;
+    float:right;
+    padding-right: 1em;
+    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+}
+.interface-icons li img {
+    height: 30px;
+    width: auto;
+    line-height:1;
+    font-size: 25px;
+    display: inline-block;
+    padding:.125em .375em;
+    padding-left: 0.85em;
+}
+.interface-icons li:hover {
+    cursor: pointer;
+}
+.interface-icons li:hover p {
+    opacity: 1;
+    max-width: 100px;
+    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+}
+
+
+/* random button
 .interface .random-nav {
     position: fixed;
     top: 5%;
@@ -265,9 +312,9 @@ ul {
 }
 .interface .random-nav img:hover {
     cursor: pointer;
-}
+}*/
 
-/* shaker icon animation */
+/* shaker icon animation
 @keyframes shaker {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
@@ -292,7 +339,7 @@ ul {
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
-}
+}*/
 
 /* ---------------------------- COCKTAIL ANIMATIONS ---------------------------- */
 .cocktail-animations {
