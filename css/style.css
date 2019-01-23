@@ -239,7 +239,6 @@ ul {
     height: 100%;
 }
 
-
 /* arrows jumping */
 @keyframes jump-left {
     0% { left: 0; }
