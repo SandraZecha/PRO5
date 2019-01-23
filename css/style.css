@@ -459,27 +459,49 @@ ul {
 
 
 /* ---------------------------- OVERVIEW ---------------------------- */
-.overview:after {
+.close-overview {
+    opacity: 0;
+    content: '×';
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    top: 24px;
+    left: 24px;
+    border: none;
+    width: 36px;
+    height: 36px;
+    outline: none;
+    transition: opacity 0.2s ease-out;
+}
+.close-overview:after {
     opacity: 0;
     content: '×';
     color: white;
     position: absolute;
-    top: 16px;
-    left: -4px;
     font-family: Arial, sans-serif;
     font-size: 76px;
-    line-height: 0;
     transition: opacity 0.4s ease-out;
+    /*top: 24px;
+    left: 24px;
+    border: none;
+    width: 50px;
+    height: 50px;*/
 }
-.open-nav .overview {
+.close-overview:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.open-nav .close-overview {
     opacity: 1;
+    z-index: 1;
 }
-.open-nav .overview:before {
+.open-nav .close-overview:before {
     opacity: 0;
     width: 0;
 }
-.open-nav .overview:after {
+.open-nav .close-overview:after {
     opacity: 1;
+    z-index: 100;
     -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
     transform: translate3d(0, 0, 0) rotate(360deg);
     transition: opacity 0.4s 1s ease-out, -webkit-transform 0.4s 1s ease-out;

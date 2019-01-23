@@ -186,10 +186,13 @@ $(document).ready(function () {
         cocktailShine($(this))
     });
 
+    //overlay for overview
     $('.overview').on('click', function(){
         $('body').toggleClass('open-nav');
     });
-
+    $('.close-overview').on('click', function(){
+        $('body').toggleClass('open-nav');
+    });
 
     //Start screen - on click on window change sequences
     $("#start-wrapper .cocktail-animations").on("click", function () {
