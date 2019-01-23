@@ -134,56 +134,56 @@ ul {
 #m_path {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .4s linear forwards;
+    animation: lettering .4s linear forwards 1s;
 }
 
 #i_path1 {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .6s linear forwards .4s;
+    animation: lettering .6s linear forwards 1.4s;
 }
 
 #x_path {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .6s linear forwards .6s;
+    animation: lettering .6s linear forwards 1.6s;
 }
 
 #i_path2 {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .7s linear forwards .8s;
+    animation: lettering .7s linear forwards 1.8s;
 }
 
 #t_path1 {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .6s linear forwards 1s;
+    animation: lettering .6s linear forwards 2s;
 }
 #t_path2 {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .6s linear forwards 1.2s;
+    animation: lettering .6s linear forwards 2.2s;
 }
 
 #end_path {
     stroke-dasharray: 2500;
     stroke-dashoffset: 2500;
-    stroke: #ffffff;
+    stroke: #eceaea;
     stroke-width: 40;
-    animation: lettering .6s linear forwards 1.3s;
+    animation: lettering .6s linear forwards 2.3s;
 }
 
 /* ---------------------------- INTERFACE ---------------------------- */
@@ -221,7 +221,7 @@ ul {
 .interface .cocktail-nav-wrapper .cocktail-nav li a {
     display: inline-block;
     font-family: 'Wilderness', sans-serif;
-    font-size: 4.4em;
+    font-size: 4.2em;
     color: #eceaea;
     text-align: center;
     padding: 5px 20px;
@@ -625,6 +625,10 @@ ul {
 
 
 /* ---------------------------- COCKTAIL ANIMATIONS ---------------------------- */
+#main-wrapper .cocktail-animations {
+    display: none;
+}
+
 .cocktail-animations {
     transform: scale(0.5);
     top:0;

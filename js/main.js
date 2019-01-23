@@ -58,6 +58,15 @@ function cocktailShine(t) {
     }, 7000)
 }
 
+//Build the glasses first
+function buildGlasses() {
+    //timer - quit start sequence after 7 sec
+    setTimeout(function () {
+        $('#start-wrapper').removeClass("glasses-beginning").addClass("glasses");
+        $('.start-names').fadeIn();
+    }, 500);
+}
+
 //Start Scree - timer if user doesn't click on window
 function startTimer() {
     //timer - quit start sequence after 7 sec
@@ -67,8 +76,9 @@ function startTimer() {
         setTimeout(function () {
             $('#start-wrapper').fadeOut(function(){
                 $('.interface').fadeIn();
+                $('#main-wrapper .cocktail-animations').fadeIn();
             });
-        }, 2500);
+        }, 1000);
      }, 7000);
 }
 
@@ -88,6 +98,9 @@ function getRecipe() {
 
 
 $(document).ready(function () {
+    //start to build glasses
+    buildGlasses();
+
     //start timer for start screen
     startTimer();
 
@@ -201,8 +214,9 @@ $(document).ready(function () {
         setTimeout(function () {
             $('#start-wrapper').fadeOut(function(){
                 $('.interface').fadeIn();
+                $('#main-wrapper .cocktail-animations').fadeIn();
             });
-        }, 3000);
+        }, 1000);
     });
 
     //recipe lightbox - show image on click, close on click of close button
