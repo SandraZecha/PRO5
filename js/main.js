@@ -1,4 +1,5 @@
 var cocktailList = $('.cocktail-indices').children(), current, randomIndex;
+var smallImgs = $('.recipe-small-images').children(), largeImgs = $('.recipe-large-images').children();
 
 //updates the "current" variable to get the index of the current Cocktail
 function getCurrentIndex () {
@@ -75,7 +76,14 @@ function getRecipe() {
     //get index
     getCurrentIndex();
 
-    //unsichtbare Liste aus imgs erstellen für preview und download und dann je nach index anzeigen / downloaden
+    //take prev and download img. from hidden index list
+    let prevImg = smallImgs.eq(current).attr("src");
+    let downloadImg = largeImgs.eq(current).attr("src");
+
+    //set prev img
+    $('#lightbox').children()[1].src = prevImg;
+    //set download img
+    document.getElementById('download-button').getElementsByClassName('image-link')[0].href = downloadImg;
 }
 
 

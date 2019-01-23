@@ -58,6 +58,14 @@ ul {
     pointer-events: none;
     display: none;
 }
+#main-wrapper .recipe-small-images {
+    pointer-events: none;
+    display: none;
+}
+#main-wrapper .recipe-large-images {
+    pointer-events: none;
+    display: none;
+}
 
 /* ---------------------------- START ---------------------------- */
 #start-wrapper {
