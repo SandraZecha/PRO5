@@ -71,12 +71,20 @@ function startTimer() {
      }, 7000);
 }
 
+function getRecipe() {
+    //get index
+    getCurrentIndex();
+
+    //unsichtbare Liste aus imgs erstellen für preview und download und dann je nach index anzeigen / downloaden
+}
+
 
 $(document).ready(function () {
     //start timer for start screen
     startTimer();
 
     let newCocktail, newClass;
+    let lightbox = document.getElementById('lightbox');
 
     //Change to prev Cocktail on click
     $(".prev a").on("click", function () {
@@ -184,6 +192,16 @@ $(document).ready(function () {
                 $('.interface').fadeIn();
             });
         }, 3000);
+    });
+
+    //recipe lightbox - show image on click, close on click of close button
+    $('#recipe-button').on('click', function () {
+        lightbox.style.display = "block";
+        getRecipe();
+    });
+
+    $('.close-button').on('click', function () {
+        lightbox.style.display = "none";
     });
 
 

@@ -310,7 +310,28 @@ ul {
     max-width: 100px;
     transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
-
+/*.interface-icons li a p {
+    opacity: 0;
+    color: #eceaea;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    max-width: 0;
+    display: block;
+    float:right;
+    padding-right: 1em;
+    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+}
+.interface-icons li a img {
+    height: 30px;
+    width: auto;
+    line-height:1;
+    font-size: 25px;
+    display: inline-block;
+    padding:.125em .375em;
+    padding-left: 0.85em;
+}*/
 
 /* random button
 .interface .random-nav {
@@ -355,6 +376,70 @@ ul {
     backface-visibility: hidden;
     perspective: 1000px;
 }*/
+
+
+/* ---------------------------- LIGHTBOX ---------------------------- */
+/* lb bg */
+.recipe-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Recipe Image */
+.recipe-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Download Button - Same Width as the Image */
+#download-button {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Animation - Zoom in image */
+.recipe-content, #download-button {
+    animation-name: zoom-in;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom-in {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 /* ---------------------------- OVERVIEW ---------------------------- */
