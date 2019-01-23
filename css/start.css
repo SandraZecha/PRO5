@@ -154,12 +154,11 @@
 }
 
 
-
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------- GLASSES SHUTTERED ---------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* left */
+/* left */ /*
 #start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(1) .poly {
     -webkit-clip-path: polygon(35.73% 81.26%,       37.95% 79.54%,      37.05% 81.59%);
     clip-path: polygon(35.73% 81.26%,       37.95% 79.54%,      37.05% 81.59%);
@@ -221,7 +220,7 @@
     background-color: transparent;
 }
 
-/* middle */
+/* middle */ /*
 #start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(13) .poly {
     -webkit-clip-path: polygon(47.60% 81.02%,       46.00% 62.11%,      49.57% 81.59%);
     clip-path: polygon(47.60% 81.02%,       46.00% 62.11%,      49.57% 81.59%);
@@ -258,7 +257,7 @@
     background-color: transparent;
 }
 
-/* right */
+/* right */ /*
 #start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(20) .poly {
     -webkit-clip-path: polygon(59.07% 81.05%,       61.69% 78.65%,      60.53% 81.62%);
     clip-path: polygon(59.07% 81.05%,       61.69% 78.65%,      60.53% 81.62%);
@@ -307,5 +306,161 @@
 #start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(29) .poly {
     -webkit-clip-path: polygon(62.64% 65.28%, 64.26% 57.13%, 67.87% 53.46%);
     clip-path: polygon(62.64% 65.28%, 64.26% 57.13%, 67.87% 53.46%);
+    background-color: transparent;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- GLASSES START -------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* left */
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(1) .poly {
+    -webkit-clip-path: polygon(0.41% 75.95%,       1.15% 53.93%,      4.8% 65.32%);
+    clip-path: polygon(0.41% 75.95%,       1.15% 53.93%,      4.8% 65.32%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(2) .poly {
+    -webkit-clip-path: polygon(1.13% 92.54%,       7.32% 79.60%,      4.24% 71.05%);
+    clip-path: polygon(1.13% 92.54%,       7.32% 79.60%,      4.24% 71.05%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(3) .poly {
+    -webkit-clip-path: polygon(7.8% 86.2%,       9.19% 73.69%,      18.34% 82.20%);
+    clip-path: polygon(7.8% 86.2%,       9.19% 73.69%,      18.34% 82.20%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(4) .poly {
+    -webkit-clip-path: polygon(13.48% 97.79%,       15.49% 89.22%,      20.75% 95.4%);
+    clip-path: polygon(13.48% 97.79%,       15.49% 89.22%,      20.75% 95.4%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(5) .poly {
+    -webkit-clip-path: polygon(22.15% 97.28%,      28.19% 91.01%,      29.99% 97.91%);
+    clip-path: polygon(22.15% 97.28%,      28.19% 91.01%,      29.99% 97.91%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(6) .poly {
+    -webkit-clip-path: polygon(37.95% 79.54%,       38.09% 75.51%,      39.03% 75.51%);
+    clip-path: polygon(37.95% 79.54%,       38.09% 75.51%,      39.03% 75.51%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(7) .poly {
+    -webkit-clip-path: polygon(32.39% 97.79%,       34.5% 84.61%,      41.98% 97.79%);
+    clip-path: polygon(32.39% 97.79%,       34.5% 84.61%,      41.98% 97.79%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(8) .poly {
+    -webkit-clip-path: polygon(2.12% 53.93%,       6.7% 37.49%,      6.28% 58.15%);
+    clip-path: polygon(2.12% 53.93%,       6.7% 37.49%,      6.28% 58.15%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(9) .poly {
+    -webkit-clip-path: polygon(2.6% 47.08%,       0.4% 36.79%,      6.28% 23.74%);
+    clip-path: polygon(2.6% 47.08%,       0.4% 36.79%,      6.28% 23.74%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(10) .poly {
+    -webkit-clip-path: polygon(1.68% 7.04%,       10.87% 14.65%,     9.67% 28.6%);
+    clip-path: polygon(1.68% 7.04%,       10.87% 14.65%,     9.67% 28.6%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(11) .poly {
+    -webkit-clip-path: polygon(10.51% 11.49%,       16.09% 2.6%,      22.79% 7.74%);
+    clip-path: polygon(10.51% 11.49%,       16.09% 2.6%,      22.79% 7.74%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(12) .poly {
+    -webkit-clip-path: polygon(16.06% 19.33%,       13.97% 12.24%,      18.7% 26.25%);
+    clip-path: polygon(16.06% 19.33%,       13.97% 12.24%,      18.7% 26.25%);
+    background-color: transparent;
+}
+
+/* middle */
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(13) .poly {
+    -webkit-clip-path: polygon(44.44% 97.79%,       42.69% 91.59%,      49.41% 93.98%);
+    clip-path: polygon(44.44% 97.79%,       42.69% 91.59%,      49.41% 93.98%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(14) .poly {
+    -webkit-clip-path: polygon(31.14% 12.99%,       25.53% 1.82%,      36.43% 7.4%);
+    clip-path: polygon(31.14% 12.99%,       25.53% 1.82%,      36.43% 7.4%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(15) .poly {
+    -webkit-clip-path: polygon(39.19% 8.1%,       34.63% 1.11%,      46.74% 4.54%);
+    clip-path: polygon(39.19% 8.1%,       34.63% 1.11%,      46.74% 4.54%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(16) .poly {
+    -webkit-clip-path: polygon(42.69% 1.7%,       52.59% 2.4%,      48.61% 9.93%);
+    clip-path: polygon(42.69% 1.7%,       52.59% 2.4%,      48.61% 9.93%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(17) .poly {
+    -webkit-clip-path: polygon(52.21% 10.83%,       60.78% 1.11%,      56.62% 12.99%);
+    clip-path: polygon(52.21% 10.83%,       60.78% 1.11%,      56.62% 12.99%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(18) .poly {
+    -webkit-clip-path: polygon(50% 98.90%,       51.62% 86.69%,      56.1% 98.90%);
+    clip-path: polygon(50% 98.90%,       51.62% 86.69%,      56.1% 98.90%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(19) .poly {
+    -webkit-clip-path: polygon(57.17% 95.3%,       66.25% 88.22%,      63.54% 98.90%);
+    clip-path: polygon(57.17% 95.3%,       66.25% 88.22%,      63.54% 98.90%);
+    background-color: transparent;
+}
+
+/* right */
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(20) .poly {
+    -webkit-clip-path: polygon(66.24% 96.91%,       73.38% 84.72%,      72.25% 97.80%);
+    clip-path: polygon(66.24% 96.91%,       73.38% 84.72%,      72.25% 97.80%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(21) .poly {
+    -webkit-clip-path: polygon(77.34% 98.62%,       76.03% 81.90%,      82.49% 98.62%);
+    clip-path: polygon(77.34% 98.62%,       76.03% 81.90%,      82.49% 98.62%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(22) .poly {
+    -webkit-clip-path: polygon(85.31% 94.55%,       90.94% 84.78%,      92.34% 98.67%);
+    clip-path: polygon(85.31% 94.55%,       90.94% 84.78%,      92.34% 98.67%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(23) .poly {
+    -webkit-clip-path: polygon(93.70% 88.79%,       98.98% 78.67%,      97.34% 98.90%);
+    clip-path: polygon(93.70% 88.79%,       98.98% 78.67%,      97.34% 98.90%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(24) .poly {
+    -webkit-clip-path: polygon(96.82% 78.67%,       96.27% 54.91%,      97.91% 72.59%);
+    clip-path: polygon(96.82% 78.67%,       96.27% 54.91%,      97.91% 72.59%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(25) .poly {
+    -webkit-clip-path: polygon(95.18% 48.38%,       99.50% 32.67%,      98.82% 54.91%);
+    clip-path: polygon(95.18% 48.38%,       99.50% 32.67%,      98.82% 54.91%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(26) .poly {
+    -webkit-clip-path: polygon(63.54% 13.20%,       65.52% 1.41%,      73.61% 4.24%);
+    clip-path: polygon(63.54% 13.20%,       65.52% 1.41%,      73.61% 4.24%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(27) .poly {
+    -webkit-clip-path: polygon(79.79% 12.69%,       75.38% 2.24%,      84.19% 2.84%);
+    clip-path: polygon(79.79% 12.69%,       75.38% 2.24%,      84.19% 2.84%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(28) .poly {
+    -webkit-clip-path: polygon(85.31% 1.11%,       94.35% 6.09%,      91.02% 15.89%);
+    clip-path: polygon(85.31% 1.11%,       94.35% 6.09%,      91.02% 15.89%);
+    background-color: transparent;
+}
+#start-wrapper.glasses-shuttered .animation-wrap .poly-wrap:nth-child(29) .poly {
+    -webkit-clip-path: polygon(95.7% 9.58%,       98.98% 5.02%,      98.45% 29.90%);
+    clip-path: polygon(95.7% 9.58%,       98.98% 5.02%,      98.45% 29.90%);
     background-color: transparent;
 }
