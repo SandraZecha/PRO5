@@ -311,7 +311,7 @@
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
-/* -------------------------------------------------------------- GLASSES START -------------------------------------------------------------- */
+/* -------------------------------------------------------------- GLASSES SHUTTERED -------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* left */
@@ -463,4 +463,190 @@
     -webkit-clip-path: polygon(95.7% 9.58%,       98.98% 5.02%,      98.45% 29.90%);
     clip-path: polygon(95.7% 9.58%,       98.98% 5.02%,      98.45% 29.90%);
     background-color: transparent;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------- TRANSITIONS ------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* left */
+#start-wrapper .magic-stuff .poly-wrap:nth-child(1) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.34s 0.02s,
+    -webkit-transform 0.3s, margin 0.3s 0.22s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(2) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.38s 0.04s,
+    -webkit-transform 0.3s, margin 0.3s 0.24s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(3) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.38s 0.04s,
+    -webkit-transform 0.3s, margin 0.3s 0.24s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(4) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(5) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(6) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(7) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(8) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(9) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(10) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(11) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(12) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
+}
+
+/* middle */
+#start-wrapper .magic-stuff .poly-wrap:nth-child(13) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.34s 0.02s,
+    -webkit-transform 0.3s, margin 0.3s 0.22s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(14) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.34s 0.02s,
+    -webkit-transform 0.3s, margin 0.3s 0.22s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(15) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(16) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(17) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(18) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(19) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
+}
+
+/* right */
+#start-wrapper .magic-stuff .poly-wrap:nth-child(20) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.38s 0.04s,
+    -webkit-transform 0.3s, margin 0.3s 0.24s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(21) .poly {
+    transition: -webkit-clip-path 0.38s 0.24s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.38s 0.04s,
+    -webkit-transform 0.3s, margin 0.3s 0.24s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(22) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(23) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(24) .poly {
+    transition: -webkit-clip-path 0.42s 0.26s
+    cubic-bezier(0.7, 0.3, 0, 1),
+    background-color 0.42s 0.06s,
+    -webkit-transform 0.3s, margin 0.3s 0.26s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(25) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(26) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(27) .poly {
+    transition: -webkit-clip-path 0.46s 0.28s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.46s 0.08s,
+    -webkit-transform 0.3s, margin 0.3s 0.28s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(28) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
+}
+#start-wrapper .magic-stuff .poly-wrap:nth-child(29) .poly {
+    transition: -webkit-clip-path 0.50s 0.30s
+    cubic-bezier(.4,.82,.83,.99),
+    background-color 0.50s 0.1s,
+    -webkit-transform 0.3s, margin 0.3s 0.30s;
 }
