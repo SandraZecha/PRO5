@@ -219,6 +219,19 @@ $(document).ready(function () {
         cocktailShine($(this))
     });
 
+    //overlay for credits
+    $('.credits-button').on('click', function(){
+        $('.credits-container').hide();
+        $('body').toggleClass('open-credits');
+
+        setTimeout(function () {
+            $('.credits-container').fadeIn();
+        }, 1000);
+    });
+    $('.close-credits').on('click', function(){
+        $('body').toggleClass('open-credits');
+        $('.credits-container').fadeOut();
+    });
 
     //overlay for overview
     $('.overview').on('click', function(){
