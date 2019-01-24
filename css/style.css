@@ -1803,7 +1803,6 @@ ul.overview-cocktails li:focus {
     width: 100%;
     top: 20%;
 }
-
 .browser-message h1 {
     color: #eceaea;
     font-family: 'Wilderness', sans-serif;
@@ -1821,7 +1820,7 @@ ul.overview-cocktails li:focus {
 }
 .browser-message a {
     font-weight: 600;
-    color: white;
+    color: #c6d319;
     text-decoration: none;
 }
 .browser-message a:hover,
@@ -1831,7 +1830,7 @@ ul.overview-cocktails li:focus {
     text-decoration: none;
 }
 .browser-message a:visited {
-    color: white;
+    color: #c6d319;
     text-decoration: none;
 }
 /* ---------------------------- RESPONSIVE ---------------------------- */
