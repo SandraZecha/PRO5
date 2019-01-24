@@ -94,6 +94,7 @@ function getRecipe() {
     $('#lightbox').children()[1].src = prevImg;
     //set download img
     document.getElementById('download-button').getElementsByClassName('image-link')[0].href = downloadImg;
+    $('#lightbox').addClass("spin-button");
 }
 
 
@@ -227,6 +228,7 @@ $(document).ready(function () {
 
     $('.close-button').on('click', function () {
         lightbox.style.display = "none";
+        lightbox.removeClass("spin-button");
     });
 
 

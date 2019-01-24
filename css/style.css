@@ -441,15 +441,29 @@ ul {
 
 /* Close Button */
 .close-button {
-    position: absolute;
+    opacity: 0;
+    position: fixed;
+    z-index: 2;
     top: 15px;
-    right: 35px;
+    left: 35px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
+    border: none;
+    outline: none;
+    transition: opacity 0.2s ease-out;
 }
-
+.spin-button .close-button {
+    opacity: 1;
+    z-index: 100;
+    -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
+    transform: translate3d(0, 0, 0) rotate(360deg);
+    transition: transform 0.4s 1s ease-out, opacity 0.4s 1s ease-out, -webkit-transform 0.4s 1s ease-out;
+}
+.spin-button .close-button:before {
+    opacity: 0;
+    width: 0;
+}
 .close-button:hover,
 .close-button:focus {
     color: #bbb;
@@ -461,51 +475,40 @@ ul {
 /* ---------------------------- OVERVIEW ---------------------------- */
 .close-overview {
     opacity: 0;
-    content: '×';
     background-color: transparent;
     position: fixed;
     z-index: 2;
-    top: 24px;
-    left: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    top: 15px;
+    left: 35px;
     border: none;
-    width: 36px;
-    height: 36px;
     outline: none;
     transition: opacity 0.2s ease-out;
 }
 .close-overview:after {
     opacity: 0;
-    content: '×';
     color: white;
     position: absolute;
     font-family: Arial, sans-serif;
     font-size: 76px;
     transition: opacity 0.4s ease-out;
-    /*top: 24px;
-    left: 24px;
-    border: none;
-    width: 50px;
-    height: 50px;*/
 }
-.close-overview:hover {
-    opacity: 0.8;
+.close-overview:hover,
+.close-overview:focus {
+    color: #bbb;
+    text-decoration: none;
     cursor: pointer;
-}
-.open-nav .close-overview {
-    opacity: 1;
-    z-index: 1;
 }
 .open-nav .close-overview:before {
     opacity: 0;
     width: 0;
 }
-.open-nav .close-overview:after {
+.open-nav .close-overview {
     opacity: 1;
     z-index: 100;
     -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
     transform: translate3d(0, 0, 0) rotate(360deg);
-    transition: opacity 0.4s 1s ease-out, -webkit-transform 0.4s 1s ease-out;
-    transition: transform 0.4s 1s ease-out, opacity 0.4s 1s ease-out;
     transition: transform 0.4s 1s ease-out, opacity 0.4s 1s ease-out, -webkit-transform 0.4s 1s ease-out;
 }
 .overview-overlay {
