@@ -222,15 +222,20 @@ $(document).ready(function () {
     //overlay for credits
     $('.credits-button').on('click', function(){
         $('.credits-container').hide();
+        $('.credits-bg-images').hide();
         $('body').toggleClass('open-credits');
 
         setTimeout(function () {
             $('.credits-container').fadeIn();
         }, 1000);
+        setTimeout(function () {
+            $('.credits-bg-images').fadeIn();
+        }, 1000);
     });
     $('.close-credits').on('click', function(){
         $('body').toggleClass('open-credits');
         $('.credits-container').fadeOut();
+        $('.credits-bg-images').fadeOut();
     });
 
     //overlay for overview
