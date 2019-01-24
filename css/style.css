@@ -107,6 +107,7 @@ ul {
     right:25%;
     left:50%;
     margin-left:-150px;
+    display: none;
 }
 .start-names p{
     font-family: 'Wilderness', sans-serif;
@@ -1786,5 +1787,136 @@ ul.overview-cocktails li:focus {
     }
     100% {
         background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+/* ---------------------------- BROWSER ---------------------------- */
+#browser {
+    display: none;
+    background: url(./images/blackboard.png);
+    background-size: cover;
+}
+
+.browser-message {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 20%;
+}
+
+.browser-message h1 {
+    color: #eceaea;
+    font-family: 'Wilderness', sans-serif;
+    font-weight: 400;
+    font-size: 25em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.browser-message p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.browser-message a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.browser-message a:hover,
+.browser-message a:focus {
+    cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+}
+.browser-message a:visited {
+    color: white;
+    text-decoration: none;
+}
+/* ---------------------------- RESPONSIVE ---------------------------- */
+#mobile {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #161314;
+}
+.mobile-picture {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(./images/mobile.png);
+    background-size: cover;
+}
+
+.mobile-message {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 35%;
+}
+
+.mobile-message h1 {
+    color: #eceaea;
+    font-family: 'Wilderness', sans-serif;
+    font-weight: 400;
+    font-size: 30em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.mobile-message p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/* smartphone portrait and landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+    #mobile {
+        display: inline;
+    }
+    #start-wrapper {
+        display: none;
+    }
+    #main-wrapper {
+        display: none;
+    }
+    #browser {
+        display: none;
+    }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media only screen and (max-device-width : 641px) {
+    #mobile {
+        display: inline;
+    }
+    #start-wrapper {
+        display: none;
+    }
+    #main-wrapper {
+        display: none;
+    }
+    #browser {
+        display: none;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media only screen and (max-device-width : 961px) {
+    #mobile {
+        display: inline;
+    }
+    #start-wrapper {
+        display: none;
+    }
+    #main-wrapper {
+        display: none;
+    }
+    #browser {
+        display: none;
     }
 }

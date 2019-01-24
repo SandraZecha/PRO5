@@ -118,6 +118,15 @@ function overviewCocktailSwitch(c) {
 
 
 $(document).ready(function () {
+    let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+    let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+
+    if (!isChrome && !isSafari) {
+        $('#browser').show();
+        $('#start-wrapper').hide();
+        $('#main-wrapper').hide();
+    }
+
     //start to build glasses
     buildGlasses();
 
