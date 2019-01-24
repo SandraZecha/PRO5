@@ -219,19 +219,29 @@ $(document).ready(function () {
         cocktailShine($(this))
     });
 
+
     //overlay for overview
     $('.overview').on('click', function(){
+        $('.overview-animation').hide();
         $('body').toggleClass('open-nav');
+
+        setTimeout(function () {
+            $('.overview-animation').fadeIn();
+        }, 1000);
     });
+
     $('.close-overview').on('click', function(){
         $('body').toggleClass('open-nav');
+        $('.overview-animation').fadeOut();
     });
+
     //switch to right cocktail on click in overview
     $('.overview-cocktails-list').on('click', function(c){
         $('body').toggleClass('open-nav');
         //give target to func for access of classlist
         overviewCocktailSwitch(c.target);
     });
+
 
     //Start screen - on click on window change sequences
     $("#start-wrapper .cocktail-animations").on("click", function () {

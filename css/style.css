@@ -642,6 +642,7 @@ ul.overview-cocktails {
     color: white;
     font-family: 'Wilderness', sans-serif;
     font-size: 5em;
+    z-index: 1;
 }
 ul.overview-cocktails li {
     opacity: 0;
@@ -692,6 +693,153 @@ ul.overview-cocktails li:focus {
 .open-nav ul.overview-cocktails li:nth-child(10) {
     transition-delay: 1.65s;
 }
+
+/* bg ingredient animation */
+.overview-animation-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+}
+.overview-animation-wrapper .overview-animation {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+.ingredient {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+@keyframes shape-1 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(213deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(573deg);
+    }
+}
+.shape-container--1 {
+    animation: shape-1 43s linear infinite;
+}
+.shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/ice_small.png);
+}
+
+@keyframes shape-2 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(208deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(568deg);
+    }
+}
+.shape-container--2 {
+    animation: shape-2 47s linear infinite;
+}
+.shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/lemon.png);
+}
+
+@keyframes shape-3 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(20deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(380deg);
+    }
+}
+.shape-container--3 {
+    animation: shape-3 47s linear infinite;
+}
+.shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/orange.png);
+}
+
+@keyframes shape-4 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(289deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(649deg);
+    }
+}
+.shape-container--4 {
+    animation: shape-4 49s linear infinite;
+}
+.shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice_small.png);
+}
+
+@keyframes shape-5 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(271deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(631deg);
+    }
+}
+.shape-container--5 {
+    animation: shape-5 42s linear infinite;
+}
+.shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lime.png);
+}
+
+@keyframes shape-6 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(259deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(619deg);
+    }
+}
+.shape-container--6 {
+    animation: shape-6 50s linear infinite;
+}
+.shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice_small.png);
+}
+
+@keyframes shape-7 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(126deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(486deg);
+    }
+}
+.shape-container--7 {
+    animation: shape-7 43s linear infinite;
+}
+.shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/orange.png);
+}
+
+@keyframes shape-8 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(101deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(461deg);
+    }
+}
+.shape-container--8 {
+    animation: shape-8 46s linear infinite;
+}
+.shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/lime.png);
+}
+
 
 /* ---------------------------- COCKTAIL ANIMATIONS ---------------------------- */
 #main-wrapper .cocktail-animations {
