@@ -742,9 +742,45 @@ ul.overview-cocktails li:focus {
 .shape-container--1 {
     animation: shape-1 43s linear infinite;
 }
-.shape-container--1 .random-shape:after {
+.ingredient.bloodymary .shape-container--1 .random-shape:after {
     margin: 7rem;
-    content: url(images/ingredients/ice_small.png);
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.cubalibre .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.longisland .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.margarita .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.martini .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.mojito .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/mint.png);
+}
+.ingredient.moscowmule .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.pinacolada .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.swimmingpool .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.tequilasunrise .shape-container--1 .random-shape:after {
+    margin: 7rem;
+    content: url(images/ingredients/orange.png);
 }
 
 @keyframes shape-2 {
@@ -758,7 +794,43 @@ ul.overview-cocktails li:focus {
 .shape-container--2 {
     animation: shape-2 47s linear infinite;
 }
-.shape-container--2 .random-shape:after {
+.ingredient.bloodymary .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/tomato.png);
+}
+.ingredient.cubalibre .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.longisland .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.margarita .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.martini .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/olive.png);
+}
+.ingredient.mojito .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.moscowmule .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/mint.png);
+}
+.ingredient.pinacolada .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.swimmingpool .shape-container--2 .random-shape:after {
+    margin: 3rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.tequilasunrise .shape-container--2 .random-shape:after {
     margin: 3rem;
     content: url(images/ingredients/lemon.png);
 }
@@ -774,9 +846,45 @@ ul.overview-cocktails li:focus {
 .shape-container--3 {
     animation: shape-3 47s linear infinite;
 }
-.shape-container--3 .random-shape:after {
+.ingredient.bloodymary .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.cubalibre .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.longisland .shape-container--3 .random-shape:after {
     margin: 8rem;
     content: url(images/ingredients/orange.png);
+}
+.ingredient.margarita .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.martini .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/olive.png);
+}
+.ingredient.mojito .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.moscowmule .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.pinacolada .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.swimmingpool .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.tequilasunrise .shape-container--3 .random-shape:after {
+    margin: 8rem;
+    content: url(images/ingredients/ice.png);
 }
 
 @keyframes shape-4 {
@@ -790,9 +898,45 @@ ul.overview-cocktails li:focus {
 .shape-container--4 {
     animation: shape-4 49s linear infinite;
 }
-.shape-container--4 .random-shape:after {
+.ingredient.bloodymary .shape-container--4 .random-shape:after {
     margin: 1rem;
-    content: url(images/ingredients/ice_small.png);
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.cubalibre .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.longisland .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.margarita .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/orange.png);
+}
+.ingredient.martini .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.mojito .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.moscowmule .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/cucumber.png);
+}
+.ingredient.pinacolada .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.swimmingpool .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.tequilasunrise .shape-container--4 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/orange.png);
 }
 
 @keyframes shape-5 {
@@ -806,9 +950,45 @@ ul.overview-cocktails li:focus {
 .shape-container--5 {
     animation: shape-5 42s linear infinite;
 }
-.shape-container--5 .random-shape:after {
+.ingredient.bloodymary .shape-container--5 .random-shape:after {
     margin: 2rem;
-    content: url(images/ingredients/lime.png);
+    content: url(images/ingredients/tomato.png);
+}
+.ingredient.cubalibre .shape-container--5 .random-shape:after {
+     margin: 2rem;
+     content: url(images/ingredients/ice.png);
+}
+.ingredient.longisland .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.margarita .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.martini .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/olive.png);
+}
+.ingredient.mojito .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.moscowmule .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/cucumber.png);
+}
+.ingredient.pinacolada .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.swimmingpool .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.tequilasunrise .shape-container--5 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lemon.png);
 }
 
 @keyframes shape-6 {
@@ -822,9 +1002,45 @@ ul.overview-cocktails li:focus {
 .shape-container--6 {
     animation: shape-6 50s linear infinite;
 }
-.shape-container--6 .random-shape:after {
+.ingredient.bloodymary .shape-container--6 .random-shape:after {
     margin: 2rem;
-    content: url(images/ingredients/ice_small.png);
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.cubalibre .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.longisland .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.margarita .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.martini .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.mojito .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/mint.png);
+}
+.ingredient.moscowmule .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.pinacolada .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.swimmingpool .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.tequilasunrise .shape-container--6 .random-shape:after {
+    margin: 2rem;
+    content: url(images/ingredients/ice.png);
 }
 
 @keyframes shape-7 {
@@ -838,7 +1054,43 @@ ul.overview-cocktails li:focus {
 .shape-container--7 {
     animation: shape-7 43s linear infinite;
 }
-.shape-container--7 .random-shape:after {
+.ingredient.bloodymary .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.cubalibre .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.longisland .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/orange.png);
+}
+.ingredient.margarita .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.martini .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.mojito .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/lime.png);
+}
+.ingredient.moscowmule .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.pinacolada .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.swimmingpool .shape-container--7 .random-shape:after {
+    margin: 4rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.tequilasunrise .shape-container--7 .random-shape:after {
     margin: 4rem;
     content: url(images/ingredients/orange.png);
 }
@@ -854,9 +1106,45 @@ ul.overview-cocktails li:focus {
 .shape-container--8 {
     animation: shape-8 46s linear infinite;
 }
-.shape-container--8 .random-shape:after {
+.ingredient.bloodymary .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/tomato.png);
+}
+.ingredient.cubalibre .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/lemon.png);
+}
+.ingredient.longisland .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.margarita .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/orange.png);
+}
+.ingredient.martini .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.mojito .shape-container--8 .random-shape:after {
     margin: 1rem;
     content: url(images/ingredients/lime.png);
+}
+.ingredient.moscowmule .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/mint.png);
+}
+.ingredient.pinacolada .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
+}
+.ingredient.swimmingpool .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/pineapple.png);
+}
+.ingredient.tequilasunrise .shape-container--8 .random-shape:after {
+    margin: 1rem;
+    content: url(images/ingredients/ice.png);
 }
 
 

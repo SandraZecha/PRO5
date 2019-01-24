@@ -241,6 +241,16 @@ $(document).ready(function () {
         //give target to func for access of classlist
         overviewCocktailSwitch(c.target);
     });
+    //change bg ingredients on hover
+    $(".overview-cocktails-list").hover(function(c) {
+        //get right classname from li classlist
+        let newIng = c.target.classList[1];
+        //change class for ingredient wrapper
+        document.getElementsByClassName('ingredient')[0].className = "ingredient " + newIng;
+        console.log(document.getElementsByClassName('ingredient')[0].className);
+    }, function () {
+        //on mouse leave do nothing
+    });
 
 
     //Start screen - on click on window change sequences
