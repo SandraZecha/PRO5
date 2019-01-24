@@ -228,7 +228,7 @@ $(document).ready(function () {
 
     $('.close-button').on('click', function () {
         lightbox.style.display = "none";
-        lightbox.removeClass("spin-button");
+        $('#lightbox').removeClass("spin-button");
     });
 
 
