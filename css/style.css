@@ -423,6 +423,12 @@ ul {
     color: white;
     text-decoration: none;
 }
+#download-button a:hover,
+#download-button a:focus {
+    cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+}
 #download-button a:visited {
     color: white;
     text-decoration: none;

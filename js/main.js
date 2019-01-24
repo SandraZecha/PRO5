@@ -81,7 +81,7 @@ function startTimer() {
         }, 1000);
      }, 7000);
 }
-
+//show right recipe in lightbox & prepare correct download img
 function getRecipe() {
     //get index
     getCurrentIndex();
@@ -95,6 +95,25 @@ function getRecipe() {
     //set download img
     document.getElementById('download-button').getElementsByClassName('image-link')[0].href = downloadImg;
     $('#lightbox').addClass("spin-button");
+}
+
+//On Click on li in overview, switch to right Cocktail
+function overviewCocktailSwitch(c) {
+    //get right classname from li classlist
+    let newCocktail = c.classList[1];
+
+    //change class of main-wrapper to the new one
+    $("#main-wrapper").attr("class", newCocktail);
+
+    getCurrentIndex();
+    //smooth heading change
+    let heading = $(".main-heading h1");
+    heading.fadeOut(function(){
+        heading.text(cocktailList.eq(current).find("p:first").text());
+        heading.fadeIn();
+    });
+
+    getCurrentIngredients();
 }
 
 
@@ -206,6 +225,12 @@ $(document).ready(function () {
     });
     $('.close-overview').on('click', function(){
         $('body').toggleClass('open-nav');
+    });
+    //switch to right cocktail on click in overview
+    $('.overview-cocktails-list').on('click', function(c){
+        $('body').toggleClass('open-nav');
+        //give target to func for access of classlist
+        overviewCocktailSwitch(c.target);
     });
 
     //Start screen - on click on window change sequences
