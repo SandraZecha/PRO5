@@ -73,14 +73,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1300" />
+          <entry key="css" value="1310" />
           <entry key="html" value="258" />
           <entry key="js" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1300" />
+          <entry key="CSS" value="1310" />
           <entry key="HTML" value="258" />
           <entry key="JavaScript" value="277" />
         </counts>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29403">
-              <caret line="1819" column="1" lean-forward="true" selection-start-line="1819" selection-start-column="1" selection-end-line="1819" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="1023" column="64" lean-forward="true" selection-start-line="1023" selection-start-column="64" selection-end-line="1023" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -198,9 +198,9 @@
         <option value="$PROJECT_DIR$/start.html" />
         <option value="$PROJECT_DIR$/css/polys.css" />
         <option value="$PROJECT_DIR$/css/start.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -330,12 +330,12 @@
       <workItem from="1548439975920" duration="1278000" />
       <workItem from="1548441762107" duration="763000" />
       <workItem from="1548444678628" duration="423000" />
-      <workItem from="1548682707659" duration="720000" />
+      <workItem from="1548682707659" duration="1449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185497000" />
+    <option name="totallyTimeSpent" value="186226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29403">
-          <caret line="1819" column="1" lean-forward="true" selection-start-line="1819" selection-start-column="1" selection-end-line="1819" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="1023" column="64" lean-forward="true" selection-start-line="1023" selection-start-column="64" selection-end-line="1023" selection-end-column="64" />
         </state>
       </provider>
     </entry>
