@@ -118,7 +118,7 @@ function overviewCocktailSwitch(c) {
 
 
 $(document).ready(function () {
-    let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+    let isChrome = !!window.chrome;
     let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 
     if (!isChrome && !isSafari) {
