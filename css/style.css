@@ -1883,9 +1883,6 @@ and (max-device-width : 480px){
     #main-wrapper {
         display: none;
     }
-    #browser {
-        display: none;
-    }
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -1899,9 +1896,6 @@ and (max-device-width : 480px){
     #main-wrapper {
         display: none;
     }
-    #browser {
-        display: none;
-    }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -1913,9 +1907,6 @@ and (max-device-width : 480px){
         display: none;
     }
     #main-wrapper {
-        display: none;
-    }
-    #browser {
         display: none;
     }
 }

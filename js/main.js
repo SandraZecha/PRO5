@@ -119,12 +119,15 @@ function overviewCocktailSwitch(c) {
 
 $(document).ready(function () {
     let isChrome = !!window.chrome;
-    let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 
-    if (!isChrome && !isSafari) {
-        $('#browser').show();
-        $('#start-wrapper').hide();
-        $('#main-wrapper').hide();
+    if($("#mobile").css('display') === 'none') {
+        if (!isChrome) {
+            $('#browser').show();
+            $('#start-wrapper').hide();
+            $('#main-wrapper').hide();
+        }
+    } else {
+        $('#browser').hide();
     }
 
     //start to build glasses
