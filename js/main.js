@@ -88,12 +88,12 @@ function getRecipe() {
 
     //take prev and download img. from hidden index list
     let prevImg = smallImgs.eq(current).attr("src");
-    let downloadImg = largeImgs.eq(current).attr("src");
+    //let downloadImg = largeImgs.eq(current).attr("src");
 
     //set prev img
     $('#lightbox').children()[1].src = prevImg;
     //set download img
-    document.getElementById('download-button').getElementsByClassName('image-link')[0].href = downloadImg;
+    document.getElementById('download-button').getElementsByClassName('image-link')[0].href = prevImg;
     $('#lightbox').addClass("spin-button");
 }
 
